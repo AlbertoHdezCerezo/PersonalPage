@@ -25,9 +25,9 @@ const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
  */
 const HMR = helpers.hasProcessFlag('hot');
 const METADATA = {
-  title: 'Angular2 Webpack Starter by @gdi2290 from @AngularClass',
-  baseUrl: '/',
-  isDevServer: helpers.isWebpackDevServer()
+    title: 'Alberto Hernandez Cerezo - Personal page',
+    baseUrl: '/',
+    isDevServer: helpers.isWebpackDevServer()
 };
 
 /*
@@ -145,6 +145,12 @@ module.exports = function (options) {
           test: /\.(jpg|png|gif)$/,
           use: 'file-loader'
         },
+
+        {
+          test: /\.scss$/,
+          exclude: /node_modules/,
+          loaders: ['raw-loader', 'sass-loader'] // sass-loader not scss-loader
+        }
 
       ],
 
