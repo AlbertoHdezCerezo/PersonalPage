@@ -1,7 +1,11 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateService, TranslateModule } from 'ng2-translate';
+
 import { MainComponent } from './components/MainComponent';
+import { HiComponent } from './components/HiComponent';
+import { ExperienceComponent } from './components/ExperienceComponent';
+
 import {ROUTES} from './routes';
 
 @NgModule({
@@ -9,7 +13,9 @@ import {ROUTES} from './routes';
         CUSTOM_ELEMENTS_SCHEMA
     ],
     declarations: [
-        MainComponent
+        MainComponent,
+        HiComponent,
+        ExperienceComponent
     ],
     imports: [
         TranslateModule,

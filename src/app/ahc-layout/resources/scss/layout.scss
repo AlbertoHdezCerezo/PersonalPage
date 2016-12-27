@@ -5,12 +5,13 @@
     overflow: hidden;
 
     .column {
-        width: auto;
         padding: 0px;
+        overflow-y: auto;
 
         .menu {
             background: #C12332;
             height: 100vh;
+            overflow-y: auto;
 
             .item {
                 width: 50px;
@@ -18,12 +19,25 @@
                 font-size: 1.2em;
                 color: #fff;
             }
+
+            .item::after {
+                border-radius: 0px;
+                font-family: robotolight;
+                border: 1px solid #fff;
+            }
         }
+    }
+
+    /* Special configuration for sidebar */
+    :first-child {
+        width: 50px;
+        overflow: hidden;
     }
 }
 
 /* Configure this ID for responsive sidebar */
 #main {
     width: calc(100vw - 50px) !important;
+    overflow-x: hidden;
     background: #050507;
 }
