@@ -1,0 +1,109 @@
+{ "experience": [
+    {
+      "city": "Berlin",
+      "starts": "4/2016",
+      "ends": "now",
+      "photo": "/assets/img/berlin.jpg",
+      "positions": [
+        {
+          "starts": "4/2016",
+          "ends": "now",
+          "name": {
+            "en": "FrontEnd Developer & API Evangelist",
+            "de": "FrontEnd Entwickler & API Evangelist",
+            "es": "Desarrollador Frontend & promotor de API"
+          },
+          "description": {
+            "en": "",
+            "de": "",
+            "es": ""
+          },
+          "technologies": [
+            "Angular",
+            "Angular2",
+            "Bootstrap",
+            "SemanticUI",
+            "Enyo",
+            "Meteor",
+            "SwaggerUI",
+            "HTML",
+            "CSS",
+            "JS",
+            "TS",
+            "VideoJS"
+          ],
+          "company": "Funke Digital TV Guide",
+          "logo": "/assets/img/funke.png"
+        }
+      ]
+    },
+    {
+      "city": "Poznan",
+      "starts": "7/2015",
+      "ends": "6/2016",
+      "photo": "/assets/img/poznan.jpg",
+      "positions": [
+        {
+          "starts": "7/2015",
+          "ends": "6/2016",
+          "name": {
+            "en": "Entrepreneur, Software Engineer & Full Stack Developer",
+            "de": "Unternehmer, Software Ingenieur & Full Stack Entwickler",
+            "es": "Emprendedor, Ingeniero Software & Desarrollador Full Stack"
+          },
+          "description": {
+            "en": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "de": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "es": "Participante del programa EUXCEL. Diseñador, coordinador y desarrollador de Able, APP web/móvil, núcleo del proyecto a presentar con el fin de crear una StartUp. La idea fue una de las finalistas del evento."
+          },
+          "technologies": [
+            "Meteor",
+            "SemanticUI",
+            "Phonegap",
+            "Asana",
+            "Slack",
+            "Adobe Photoshop",
+            "Adobe After Effects",
+            "Adobe PremierePro"
+          ],
+          "company": "Funke Digital TV Guide",
+          "logo": "/assets/img/euxcel.png",
+          "video": "https://www.youtube.com/watch?v=lkDrkAmZONo"
+        }
+      ]
+    },
+    {
+      "city": "Valladolid",
+      "starts": "9/2011",
+      "ends": "12/2015",
+      "photo": "/assets/img/valladolid.jpg",
+      "positions": [
+        {
+          "starts": "7/2015",
+          "ends": "6/2016",
+          "name": {
+            "en": "Software Engineer & Full Stack Developer",
+            "de": "Software Ingenieur & Full Stack Entwickler",
+            "es": "Ingeniero Software & Desarrollador Full Stack"
+          },
+          "description": {
+            "en": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "de": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "es": "Colaborador del grupo GSI en el desarrollo de una plataforma web, para un cliente externo, destinada a la compra/venta de materiales."
+          },
+          "technologies": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Java",
+            "PostGreSQL",
+            "UML",
+            "Requirements & Use Cases design"
+          ],
+          "company": "Grupo de Sistemas Inteligentes, Universidad de Valladolid",
+          "logo": "/assets/img/gsi.png"
+        }
+      ]
+    }
+  ]
+}
