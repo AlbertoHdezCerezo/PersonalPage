@@ -1,12 +1,17 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateService, TranslateModule } from 'ng2-translate';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AhcBaseModule } from '../ahc-base/index';
 
 import { MainComponent } from './components/MainComponent';
 import { HiComponent } from './components/HiComponent';
 import { ExperienceComponent } from './components/ExperienceComponent';
+import { ExperienceItemComponent } from './components/ExperienceItemComponent';
+import { ExperiencePlaceComponent } from './components/ExperiencePlaceComponent';
 
-import {ROUTES} from './routes';
+import { ROUTES } from './routes';
 
 @NgModule({
     schemas: [
@@ -15,10 +20,16 @@ import {ROUTES} from './routes';
     declarations: [
         MainComponent,
         HiComponent,
-        ExperienceComponent
+        ExperienceComponent,
+        ExperiencePlaceComponent,
+        ExperienceItemComponent
     ],
     imports: [
+        BrowserModule,
         TranslateModule,
+
+        AhcBaseModule,
+
         RouterModule.forRoot(ROUTES, { useHash: false })
     ]
 })

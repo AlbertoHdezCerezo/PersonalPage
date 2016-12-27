@@ -7,34 +7,14 @@
     </h1>
 
     <!-- LIST OF PROFESSIONAL EXPERIENCE -->
-    <div class="ui three stackable cards">
-        <div class="card"
-             style="background-image: url('/assets/img/berlin.jpg');
-                    background-size: cover;
+    <div *ngIf="experiencePlaces.length > 0" class="ui three stackable cards">
+        <div *ngFor="let experiencePlace of experiencePlaces" class="card"
+             [ngStyle]="{'background-image': 'url(' + experiencePlace.photo + ')'}"
+             style="background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center center;">
-            <h2 class="ui header">
-                <div class="content">
-                    <p>Berlin</p>
-                    <span>4/2016 - now</span>
-                    <div class="ui horizontal divider">
-                        <i class="bar icon"></i>
-                    </div>
-                    <div class="ui list">
-                        <div class="item">
-                            <img class="ui avatar image" src="/assets/img/funke.png">
-                            <div class="content">
-                                <div class="header">FrontEnd Developer & API Evangelist</div>
-                                <div class="description">Funke Digital TV Guide</div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="ui inverted button">
-                        <i class="icon search"></i>
-                        details
-                    </button>
-                </div>
-            </h2>
+             <ahc-experience-place [experiencePlace]="experiencePlace">
+             </ahc-experience-place>
         </div>
     </div>
 </div>

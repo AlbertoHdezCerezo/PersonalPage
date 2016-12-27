@@ -16,59 +16,11 @@
         }
     }
 
-    .divider {
-        i {
-            color: #fff;
-            font-size: 1.4em;
-        }
-    }
-
     .card {
         border-radius: 0px;
         box-shadow: 0 0 0 0 #D4D4D5;
         text-align: center;
         background: #2A2A27;
-        padding: 12px;
-
-        .content {
-            font-family: the_next_fontregular;
-            color: #fff;
-
-            p {
-                margin: 0px;
-            }
-
-            span {
-                font-family: robotoregular;
-                font-size: 0.8em;
-                text-transform: uppercase;
-            }
-
-            .button {
-                margin-top: 15px;
-                font-family: robotoregular;
-            }
-
-            /* cortar por aquí */
-            .list {
-                text-align: left;
-                margin: 0px;
-
-                .item {
-                    font-size: 0.8em;
-
-                    .header {
-                        font-family: robotoregular;
-                        color: #ccc;
-                    }
-
-                    .description {
-                        font-family: robotolight;
-                        font-size: 0.8em;
-                        color: #C12332;
-                    }
-                }
-            }
-        }
+        padding: 12px !important;
     }
 }

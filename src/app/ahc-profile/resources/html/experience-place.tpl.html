@@ -1,0 +1,18 @@
+<h2 class="ui header">
+    <div class="content">
+        <p>{{experiencePlace.city}}</p>
+        <span>{{experiencePlace.starts}} - {{experiencePlace.ends}}</span>
+        <div class="ui horizontal divider">
+            <i class="bar icon"></i>
+        </div>
+        <div *ngIf="experiencePlace.positions.length > 0" class="ui list">
+            <div *ngFor="let experienceItem of experiencePlace.positions" class="item">
+                <ahc-experience-item [experienceItem]="experienceItem"></ahc-experience-item>
+            </div>
+        </div>
+        <button class="ui inverted button">
+            <i class="icon search"></i>
+            details
+        </button>
+    </div>
+</h2>

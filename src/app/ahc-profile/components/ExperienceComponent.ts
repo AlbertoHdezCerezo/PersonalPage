@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { ConfigBlock } from '../../ahc-base/services/ConfigBlock';
+import ExperiencePlace from '../../ahc-base/models/ExperiencePlace';
+
 @Component({
     selector: 'ahc-experience',
     styleUrls: [ '../resources/scss/experience.scss' ],
@@ -7,5 +10,10 @@ import { Component } from '@angular/core';
 })
 /** [Component] List of professional experience component */
 export class ExperienceComponent{
-    constructor() {};
+
+    public experiencePlaces: ExperiencePlace[] = [];
+
+    constructor(private configBlock: ConfigBlock) {
+        this.experiencePlaces = this.configBlock.getConfig('experience');
+    };
 }

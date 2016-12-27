@@ -58,6 +58,7 @@ export class ExperienceParser {
             this.getDescription(experienceItem),
             this.getTechnologies(experienceItem),
             this.getCompany(experienceItem),
+            this.getLogo(experienceItem),
             this.getVideo(experienceItem)
         );
     }
