@@ -1,0 +1,9 @@
+/* Custom CSS style for Semantic components */
+/* Language selection accordion*/
+.ui.accordion .accordion .title .dropdown.icon, .ui.accordion .title .dropdown.icon {
+    display: none !important;
+}
+
+.ui.accordion .accordion .title, .ui.accordion .title {
+    margin-top: 15.5px;
+}

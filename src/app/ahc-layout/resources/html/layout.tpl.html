@@ -1,12 +1,41 @@
 <div class="ui grid ahc-layout">
     <div class="column">
+        <!-- LANGUAGE SELECTION -->
+        <sm-accordion [options]="{ exclusive: true, on:'click' }">
+            <sm-accordion-item>
+                <accordion-title>
+                    <a class="item" data-tooltip="language"
+                         data-position="right center"
+                         data-inverted="">
+                        <i class="world icon"></i>
+                    </a>
+                </accordion-title>
+                <accordion-content>
+                    <div class="ui vertical icon text menu ahc-language-menu">
+                        <a class="item" data-tooltip="language"
+                             data-position="right center"
+                             data-inverted=""
+                             (click)="changeLanguage('en')">
+                            <i class="gb flag"></i>
+                        </a>
+                        <a class="item" data-tooltip="experience"
+                             data-position="right center"
+                             data-inverted=""
+                             (click)="changeLanguage('es')">
+                            <i class="es flag"></i>
+                        </a>
+                        <a class="item" data-tooltip="personal records"
+                             data-position="right center"
+                             data-inverted=""
+                             (click)="changeLanguage('de')">
+                            <i class="de flag"></i>
+                        </a>
+                    </div>
+                </accordion-content>
+            </sm-accordion-item>
+        </sm-accordion>
         <!-- NAVIGATION SIDEBAR -->
         <div class="ui vertical icon text menu">
-            <a class="item" data-tooltip="language"
-                data-position="right center"
-                data-inverted="">
-                    <i class="world icon"></i>
-            </a>
             <a class="item" data-tooltip="experience"
                 data-position="right center"
                 data-inverted="">

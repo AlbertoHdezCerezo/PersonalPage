@@ -1,6 +1,8 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateService, TranslateModule } from 'ng2-translate';
+import { NgSemanticModule } from 'ng-semantic';
+
 import { LayoutComponent } from './components/LayoutComponent';
 
 @NgModule({
@@ -12,6 +14,7 @@ import { LayoutComponent } from './components/LayoutComponent';
     ],
     imports: [
         TranslateModule,
+        NgSemanticModule,
         RouterModule.forRoot([], { useHash: false })
     ]
 })

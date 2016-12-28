@@ -56,6 +56,7 @@ import {ConfigBlock} from "../ahc-base/services/ConfigBlock";
 export class AppModule {
     constructor(private translate: TranslateService) {
         translate.setDefaultLang('en');
+        translate.use('en');
     }
 }
 
