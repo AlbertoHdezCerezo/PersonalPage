@@ -1,0 +1,26 @@
+.ahc-academic-record {
+    width: 100%;
+    background: #F2F4F2;
+    padding: 20px;
+
+    h1 {
+        font-size: 3.5em;
+        font-family: the_next_fontregular;
+
+        .sub.header {
+            font-family: robotobold;
+        }
+
+        i {
+            font-size: 0.8em;
+        }
+    }
+
+    .card {
+        border-radius: 0px;
+        box-shadow: 0 0 0 0 #D4D4D5;
+        text-align: center;
+        background: #2A2A27;
+        padding: 12px !important;
+    }
+}

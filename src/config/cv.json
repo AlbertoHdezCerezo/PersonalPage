@@ -1,4 +1,66 @@
-{ "experience": [
+{ "academicRecord": [
+    {
+      "city": "Valladolid",
+      "starts": "9/2009",
+      "ends": "9/2015",
+      "photo": "/assets/img/valladolid.jpg",
+      "titles": [
+        {
+          "starts": "9/2013",
+          "ends": "9/2015",
+          "score": "8,567 out of 10",
+          "award": true,
+          "name": {
+            "en": "Master in Computer Science",
+            "es": "Master en Ingeniería Informática",
+            "de": "Master Ingenieurinformatik"
+          },
+          "description": {
+            "en": "Graduated with Honors. Specialized in Web semantic and technologies, Cryptography, Artifical Intelligence for Diagnosis and Mathematic Methods.",
+            "es": "Graduado con Honores. Especializado en asignaturas de Tecnologías Web, Semántica, Métodos Matemáticos y Criptografía.",
+            "de": "Graduated with Honors. Specialized in Web semantic and technologies, Cryptography, Artifical Intelligence for Diagnosis and Mathematic Methods."
+          },
+          "center": "Escuela Técnica Superior de Ingeniería Informática, Campus Miguel Delibes, Universidad de Valladolid",
+          "logo": "/assets/img/uva.png",
+          "activities": [
+            {
+              "en": "Swimming Team",
+              "es": "Grupo de Natación",
+              "de": "Schwimmsport Team"
+            },
+            {
+              "en": "Cycling Group",
+              "es": "Grupo de Ciclismo",
+              "de": "Radfahren Team"
+            },
+            {
+              "en": "Orientation Group",
+              "es": "Grupo de Orientación",
+              "de": "Orientierung Team"
+            }
+          ],
+          "achievements": [
+            {
+              "en": "2 Honorific Mentions achieved",
+              "es": "2 Matrículas de Honor obtenidas",
+              "de": "2 Honorific Mentions achieved"
+            },
+            {
+              "en": "GSI Research Grant obtained",
+              "es": "Obtenida Beca de Colaboración del Grupo de Investigación GSI",
+              "de": "GSI Research Grant obtained"
+            },
+            {
+              "en": "Best Thesis Award: System Diagnosis via Hybrid Possible Conflicts",
+              "es": "Premio al mejor Trabajo Fin de Máster: Diagnosis de Sistemas usando Posibles Conflictos Híbridos",
+              "de": "Best Thesis Award: System Diagnosis via Hybrid Possible Conflicts"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experience": [
     {
       "city": "Berlin",
       "starts": "4/2016",

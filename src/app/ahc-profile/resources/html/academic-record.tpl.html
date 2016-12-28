@@ -1,0 +1,20 @@
+<div class="ahc-academic-record">
+    <h1 class="ui header">
+        <i class="student icon"></i>
+        <div class="content">
+            Academic Record
+        </div>
+    </h1>
+
+    <!-- LIST OF PROFESSIONAL EXPERIENCE -->
+    <div *ngIf="academicRecordPlaces.length > 0" class="ui one stackable cards">
+        <div *ngFor="let academicRecordPlace of academicRecordPlaces" class="card"
+             [ngStyle]="{'background-image': 'url(' + academicRecordPlace.photo + ')'}"
+             style="background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;">
+             <ahc-academic-record-place [academicRecordPlace]="academicRecordPlace">
+             </ahc-academic-record-place>
+        </div>
+    </div>
+</div>

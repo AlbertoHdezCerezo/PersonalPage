@@ -1,0 +1,25 @@
+<h2 class="ui header">
+    <div class="content">
+        <p>{{academicRecordPlace.city}}</p>
+        <span>{{academicRecordPlace.starts}} - {{academicRecordPlace.ends}}</span>
+        <div class="ui horizontal divider">
+            <i class="bar icon"></i>
+        </div>
+        <div *ngIf="academicRecordPlace.titles.length > 0" class="ui list">
+            <div *ngFor="let academicRecordItem of academicRecordPlace.titles" class="item">
+                <img class="ui avatar image" [src]="academicRecordItem.logo">
+                <div class="content">
+                    <div class="header">
+                        <i *ngIf="academicRecordItem.award" class="yellow trophy icon"></i>
+                        {{academicRecordItem.name | multilanguageField}}
+                    </div>
+                    <div class="description">{{academicRecordItem.center}}</div>
+                </div>
+            </div>
+        </div>
+        <button class="ui inverted button">
+            <i class="icon search"></i>
+            details
+        </button>
+    </div>
+</h2>

@@ -10,6 +10,8 @@ import { HiComponent } from './components/HiComponent';
 import { ExperienceComponent } from './components/ExperienceComponent';
 import { ExperienceItemComponent } from './components/ExperienceItemComponent';
 import { ExperiencePlaceComponent } from './components/ExperiencePlaceComponent';
+import { AcademicRecordComponent } from './components/AcademicRecordComponent';
+import { AcademicRecordPlaceComponent } from './components/AcademicRecordPlaceComponent';
 
 import { ROUTES } from './routes';
 
@@ -22,7 +24,9 @@ import { ROUTES } from './routes';
         HiComponent,
         ExperienceComponent,
         ExperiencePlaceComponent,
-        ExperienceItemComponent
+        ExperienceItemComponent,
+        AcademicRecordComponent,
+        AcademicRecordPlaceComponent
     ],
     imports: [
         BrowserModule,

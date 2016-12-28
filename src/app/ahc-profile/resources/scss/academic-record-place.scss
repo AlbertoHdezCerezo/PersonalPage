@@ -1,0 +1,52 @@
+.divider {
+    i {
+        color: #fff;
+        font-size: 1.4em;
+    }
+}
+
+.content {
+    font-family: the_next_fontregular;
+    color: #fff;
+
+    p {
+        margin: 0px;
+    }
+
+    span {
+        font-family: robotoregular;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+
+    .button {
+        margin-top: 15px;
+        font-family: robotoregular;
+    }
+
+    /* cortar por aquí */
+    .list {
+        text-align: left;
+        margin: 0px;
+
+        .item {
+            font-size: 0.7em;
+
+            .content {
+                width: calc(100% - 2.5em) !important;
+
+                .header {
+                    font-family: robotoregular !important;
+                    color: #ccc !important;
+                }
+
+                .description {
+                    font-family: robotolight;
+                    font-size: 0.8em;
+                    color: #C12332 !important;
+                }
+            }
+
+        }
+    }
+}
