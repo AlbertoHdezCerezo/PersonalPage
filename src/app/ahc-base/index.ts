@@ -4,12 +4,14 @@ import { TranslateModule } from 'ng2-translate';
 import { ConfigBlock } from './services/ConfigBlock';
 import { AcademicRecordParser } from './services/AcademicRecordParser';
 import { ExperienceParser } from './services/ExperienceParser';
+import { LanguageParser } from './services/LanguageParser';
 import { MultilanguageFieldPipe } from './pipes/MultilanguageFieldPipe';
 
 @NgModule({
     providers: [
         ExperienceParser,
         AcademicRecordParser,
+        LanguageParser,
         ConfigBlock
     ],
     declarations: [

@@ -1,0 +1,88 @@
+.ahc-language {
+    width: 100%;
+    background: #261D1D;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    h1 {
+        font-size: 2.2em;
+        font-family: the_next_fontregular;
+        margin-bottom: 35px;
+        color: #fff;
+
+        .sub.header {
+            font-family: robotobold;
+        }
+
+        i {
+            color: #fff;
+            font-size: 0.8em;
+        }
+    }
+
+    .card {
+        border-radius: 0px;
+        box-shadow: 0 0 0 0 #D4D4D5;
+        text-align: center;
+        background: #2A2A27;
+        padding: 12px !important;
+
+        h2 {
+            text-align: left;
+            margin: 0px;
+
+            .content {
+                font-family: the_next_fontregular;
+                font-size: 0.8em;
+                color: #fff;
+            }
+
+            .sub.header {
+                font-family: robotobold;
+                color: #C12332 !important;
+            }
+
+            button {
+                float: right;
+                font-family: robotoregular;
+            }
+        }
+
+        p {
+            text-align: justify;
+            font-family: robotolight;
+            color: #ccc;
+            font-size: 1.2em;
+        }
+
+        /* cortar por aquí */
+        .list {
+            text-align: left;
+            margin: 0px;
+            margin-top: 10px;
+
+            .item {
+
+                .content {
+                    width: calc(100% - 2.5em) !important;
+
+                    .header {
+                        font-family: robotoregular !important;
+                        color: #ccc !important;
+
+                        i {
+                            margin: 0px;
+                        }
+                    }
+
+                    .description {
+                        font-family: robotolight;
+                        color: #C12332 !important;
+                    }
+                }
+
+            }
+        }
+    }
+}

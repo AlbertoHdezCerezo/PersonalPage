@@ -1,0 +1,51 @@
+<div class="ahc-language">
+    <h1 class="ui header">
+        <i class="flag icon"></i>
+        <div class="content">
+            Languages
+        </div>
+    </h1>
+
+    <!-- LIST OF PROFESSIONAL EXPERIENCE -->
+    <div *ngIf="languages.length > 0" class="ui two stackable cards">
+        <div *ngFor="let language of languages" class="card">
+            <sm-accordion [options]="{ exclusive: true, on:'click' }">
+                <sm-accordion-item>
+                    <accordion-title>
+                        <h2 class="ui header">
+                            <img *ngIf="language.language === 'Español'" src="/assets/img/spainFlag.jpg" class="ui circular image">
+                            <img *ngIf="language.language === 'English'" src="/assets/img/englandFlag.png" class="ui circular image">
+                            <img *ngIf="language.language === 'Deutsch'" src="/assets/img/germanyFlag.jpg" class="ui circular image">
+                            <img *ngIf="language.language === 'Français'" src="/assets/img/franceFlag.jpg" class="ui circular image">
+                            <div class="content">
+                                {{language.language}}
+                                <div *ngIf="language.level !== '*'" class="sub header">{{language.level}}</div>
+                            </div>
+                            <button class="ui inverted button">
+                                <i class="icon search"></i>
+                                details
+                            </button>
+                        </h2>
+                    </accordion-title>
+                    <accordion-content>
+                        <div class="ui inverted divider"></div>
+
+                        <p>{{language.description | multilanguageField}}</p>
+
+                        <div *ngIf="language.certificates.length > 0" class="ui list">
+                            <div *ngFor="let certificate of language.certificates" class="item">
+                                <img class="ui avatar image" [src]="certificate.logo">
+                                <div class="content">
+                                    <div class="header">
+                                        {{certificate.name}}
+                                    </div>
+                                    <div class="description">{{certificate.center}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </accordion-content>
+                </sm-accordion-item>
+            </sm-accordion>
+        </div>
+    </div>
+</div>

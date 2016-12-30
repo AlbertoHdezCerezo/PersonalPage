@@ -7,3 +7,7 @@
 .ui.accordion .accordion .title, .ui.accordion .title {
     margin-top: 15.5px;
 }
+
+.card .title {
+    margin: 0px !important;
+}

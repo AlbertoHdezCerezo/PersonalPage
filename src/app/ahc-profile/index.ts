@@ -2,16 +2,19 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateService, TranslateModule } from 'ng2-translate';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgSemanticModule } from 'ng-semantic';
 
 import { AhcBaseModule } from '../ahc-base/index';
 
 import { MainComponent } from './components/MainComponent';
 import { HiComponent } from './components/HiComponent';
+import { PresentationComponent } from './components/PresentationComponent';
 import { ExperienceComponent } from './components/ExperienceComponent';
 import { ExperienceItemComponent } from './components/ExperienceItemComponent';
 import { ExperiencePlaceComponent } from './components/ExperiencePlaceComponent';
 import { AcademicRecordComponent } from './components/AcademicRecordComponent';
 import { AcademicRecordPlaceComponent } from './components/AcademicRecordPlaceComponent';
+import { LanguageComponent } from './components/LanguageComponent';
 
 import { ROUTES } from './routes';
 
@@ -22,15 +25,18 @@ import { ROUTES } from './routes';
     declarations: [
         MainComponent,
         HiComponent,
+        PresentationComponent,
         ExperienceComponent,
         ExperiencePlaceComponent,
         ExperienceItemComponent,
         AcademicRecordComponent,
-        AcademicRecordPlaceComponent
+        AcademicRecordPlaceComponent,
+        LanguageComponent
     ],
     imports: [
         BrowserModule,
         TranslateModule,
+        NgSemanticModule,
 
         AhcBaseModule,
 

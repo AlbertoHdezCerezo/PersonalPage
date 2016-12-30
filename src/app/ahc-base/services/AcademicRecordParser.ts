@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import * as _ from 'underscore';
-import AcademicRecordItem from "../models/AcademicRecordItem";
-import AcademicRecordPlace from "../models/AcademicRecordPlace";
+
+import AcademicRecordItem from '../models/AcademicRecordItem';
+import AcademicRecordPlace from '../models/AcademicRecordPlace';
 
 @Injectable()
 /** [Service] Gets academic record information from JSON file and turns that data into objects */

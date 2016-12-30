@@ -1,4 +1,70 @@
-{ "academicRecord": [
+{
+  "languages": [
+    {
+      "language": "Español",
+      "level": "*",
+      "description": {
+        "en":"Mother language",
+        "de":"Mother language",
+        "es":"Lengua materna"
+      },
+      "certificates": []
+    },
+    {
+      "language": "English",
+      "level": "C1",
+      "description": {
+        "en":"Technical english course studied in career. Took part in two courses, one year long each one, for FCE and CAE exams.",
+        "de":"Technical english course studied in career. Took part in two courses, one year long each one, for FCE and CAE exams.",
+        "es":"Estudiado asignatura Inglés Técnico en universidad. Realizados dos cursos, de un año de duración, preparatorios para las pruebas FCE y CAE"
+      },
+      "certificates": [
+        {
+          "name": "First Certificate in English (FCE)",
+          "date": "6/2013",
+          "center": "University of Cambridge",
+          "logo": "/assets/img/cambridge.jpg"
+        },
+        {
+          "name": "Certificate in Advanced English (CAE)",
+          "date": "8/2015",
+          "center": "University of Cambridge",
+          "logo": "/assets/img/cambridge.jpg"
+        }
+      ]
+    },
+    {
+      "language": "Deutsch",
+      "level": "A2",
+      "description": {
+        "en":"Took part in four courses: A1 (Spain), A1+1, A1+2, A2+1 (Germany, Anda Sprachschule)",
+        "de":"Took part in four courses: A1 (Spain), A1+1, A1+2, A2+1 (Germany, Anda Sprachschule)",
+        "es":"Realizados cuatro cursos de idiomas: A1 (España), A1+1, A1+2, A2+1 (Alemania, Anda Sprachschule)"
+      },
+      "certificates": []
+    },
+    {
+      "language": "Français",
+      "level": "A1",
+      "description": {
+        "en":"Studied during four years in highschool",
+        "de":"Studied during four years in highschool",
+        "es":"Estudiado durante cuatro años en el instituto."
+      },
+      "certificates": []
+    }
+  ],
+  "activities": [
+    {
+
+    }
+  ],
+  "offtopic": [
+    {
+
+    }
+  ],
+  "academicRecord": [
     {
       "city": "Valladolid",
       "starts": "9/2009",
