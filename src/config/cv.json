@@ -1,4 +1,142 @@
 {
+  "stable": false,
+  "events": [
+    {
+      "name": "Hack For Good",
+      "logo": "assets/img/hackForGood.png",
+      "iterations": [
+        {
+          "year": "2013",
+          "project": "3D AR Book",
+          "logo": null,
+          "description": {
+            "en": "Design of a 3D AR book for kids",
+            "es": "Diseño de un libro 3D con realidad aumentada para niños",
+            "de": "Design of a 3D AR book for kids"
+          },
+          "technology": ["Android", "Blender", "AR"],
+          "award": null
+        },
+        {
+          "year": "2016",
+          "project": "Atlas",
+          "logo": "assets/img/atlas.jpg",
+          "description": {
+            "en": "Creation of the first software development/distribution environment for drone; in order to encourage software development for these devices. We implemented a scenario in which two drones were controlled, coordinated, by a smartwatch",
+            "es": "Creación del primer entorno de desarrollo software para drones. Una plataforma de desarrollo y distribución de aplicaciones para drones, que aporte un valor añadido al dispositivo. Implementamos un caso práctico en el que controlamos dos drones coordinados vía smartwatch.",
+            "de": "Creation of the first software development/distribution environment for drone; in order to encourage software development for these devices. We implemented a scenario in which two drones were controlled, coordinated, by a smartwatch"
+          },
+          "technology": ["Android", "Meteor", "Phonegap", "Bluetooth", "Parrot Airborne", "Smartwatch", "NodeJS"],
+          "award": null
+        }
+      ]
+    },
+    {
+      "name": "Curso de modelado 3D con Blender",
+      "logo": "assets/img/raptureGames.png",
+      "iterations": [
+        {
+          "year": "2013",
+          "description": {
+            "en": "Blender 3D Modeling course",
+            "es": "Curso de Modelado 3D con Blender",
+            "de": "Blender 3D Modeling course"
+          },
+          "technology": ["Blender"]
+        }
+      ]
+    },
+    {
+      "name": "EUXCEL",
+      "logo": "assets/img/euxcel.png",
+      "iterations": [
+        {
+          "year": "2015",
+          "project": "Able",
+          "logo": "assets/img/able.jpg",
+          "description": {
+            "en": "Social platform for events/plans organisation with friends in an efficient and not-intrusive way",
+            "es": "Plataforma social para organización de planes con amigos, de manera eficiente y no intrusiva",
+            "de": "Social platform for events/plans organisation with friends in an efficient and not-intrusive way"
+          },
+          "technology": ["Meteor", "Semantic UI", "Phonegap", "Facebook API"],
+          "award": "2º Position in first round (Poznan, Poland), classified to finals (Cork, Ireland)"
+        }
+      ]
+    },
+    {
+      "name": "Media Hackday",
+      "logo": "assets/img/mediaHackDay.png",
+      "iterations": [
+        {
+          "year": "2016",
+          "project": "Project Matamoscas",
+          "logo": "assets/img/matamoscas.jpg",
+          "description": {
+            "en": "Replacemante of the skip-ad button by a feedback button which skips the ad and provides user feedback about the ad. The goal is to implement a non-intrusive way of providing ad-feedback to improve the way advertisement is targeted to users",
+            "es": "Sustitución del botón de saltar-anuncio por otro que además permita al usuario proporcionar feedback acerca de éste; con el objetivo de permitir a los sistemas de anuncios seleccionar su público potencial de manera eficaz y eficiente.",
+            "de": "Replacemante of the skip-ad button by a feedback button which skips the ad and provides user feedback about the ad. The goal is to implement a non-intrusive way of providing ad-feedback to improve the way advertisement is targeted to users"
+          },
+          "technology": ["VideoJS", "HTML", "Javascript"],
+          "award": null
+        }
+      ]
+    },
+    {
+      "name": "TV HackDay",
+      "logo": "assets/img/tvHackDay.png",
+      "iterations": [
+        {
+          "year": "2016",
+          "project": "Atlas Race",
+          "logo": "assets/img/atlas.jpg",
+          "description": {
+            "en": "Platform for organising/streaming in 360º Drone races. Implemented streaming, race logic and 360º drone pilot view.",
+            "es": "Plataforma para la organización y streaming en 360º de carreras de drones. Se implementó el sistema de streaming, la lógica de circuitos y la vista de 360º de piloto",
+            "de": "Platform for organising/streaming in 360º Drone races. Implemented streaming, race logic and 360º drone pilot view."
+          },
+          "technology": ["Meteor", "Semantic UI", "Panono Camera", "Parrot Airborne", "Aframe", "VR", "Google Cardbox", "Microsoft Azure", "Ericsson API"],
+          "award": "2º Position and Honorable Mention to the project"
+        }
+      ]
+    },
+    {
+      "name": "DX",
+      "logo": "assets/img/dx.png",
+      "iterations": [
+        {
+          "year": "2014",
+          "project": "DxPCs",
+          "logo": "assets/img/gsi.png",
+          "description": {
+            "en": "AI System for Automatic Diagnosis via Possible Conflicts. Career Thesis which was presented as article to DX 14.",
+            "es": "Sistema de AI para el diagnóstico automático vía Posibles Conflictos. Proyecto fin de carrera presentado como artículo al evento DX 14",
+            "de": "AI System for Automatic Diagnosis via Possible Conflicts. Career Thesis which was presented as article to DX 14."
+          },
+          "technology": ["Matlab", "AI", "MySQL", "PCs", "Bond Graphs"],
+          "award": "Nominated to Best Tool Paper Award"
+        }
+      ]
+    },
+    {
+      "name": "CAEPIA",
+      "logo": "assets/img/caepia.png",
+      "iterations": [
+        {
+          "year": "2015",
+          "project": "Characterizing and computing HBG-PCs for hybrid systems fault diagnosis",
+          "logo": "assets/img/gsi.png",
+          "description": {
+            "en": "Article, application of Possible Conflicts to Hybrid Systems for its diagnose in real time.",
+            "es": "Sistema de AI para el diagnóstico automático vía Posibles Conflictos. Proyecto fin de carrera presentado como artículo al evento DX 14",
+            "de": "Article, application of Possible Conflicts to Hybrid Systems for its diagnose in real time."
+          },
+          "technology": ["Matlab", "AI", "MySQL", "PCs", "Hybrid Bond Graphs"],
+          "award": null
+        }
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "Español",
@@ -52,11 +190,6 @@
         "es":"Estudiado durante cuatro años en el instituto."
       },
       "certificates": []
-    }
-  ],
-  "activities": [
-    {
-
     }
   ],
   "offtopic": [

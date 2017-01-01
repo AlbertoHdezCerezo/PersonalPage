@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { TranslateModule } from 'ng2-translate';
 
 import { ConfigBlock } from './services/ConfigBlock';
+import { EventParser } from './services/EventParser';
 import { AcademicRecordParser } from './services/AcademicRecordParser';
 import { ExperienceParser } from './services/ExperienceParser';
 import { LanguageParser } from './services/LanguageParser';
@@ -9,6 +10,7 @@ import { MultilanguageFieldPipe } from './pipes/MultilanguageFieldPipe';
 
 @NgModule({
     providers: [
+        EventParser,
         ExperienceParser,
         AcademicRecordParser,
         LanguageParser,

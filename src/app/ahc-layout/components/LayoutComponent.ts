@@ -7,7 +7,7 @@ import { TranslateService } from 'ng2-translate';
     templateUrl: '../resources/html/layout.tpl.html'
 })
 /** [Component] APP layout, defines how page layout looks like */
-export class LayoutComponent{
+export class LayoutComponent {
     constructor(private translate: TranslateService) {};
 
     public changeLanguage(languageCode: string): void {

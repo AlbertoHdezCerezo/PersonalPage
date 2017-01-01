@@ -5,8 +5,10 @@
     overflow: hidden;
 
     .column {
+        width: calc(100vw - 50px);
         padding: 0px;
         overflow-y: auto;
+        height: 100vh;
 
         /* dropdown selector style*/
         .item {
@@ -31,6 +33,8 @@
                 border-radius: 0px;
                 font-family: robotolight;
                 border: 1px solid #fff;
+                position: fixed;
+                z-index: 1000;
             }
         }
     }
@@ -38,7 +42,7 @@
     /* Special configuration for sidebar */
     :first-child {
         background: #C12332;
-        width: 50px;
+        width: 50px !important;
         overflow: hidden;
     }
 }
