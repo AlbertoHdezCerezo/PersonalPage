@@ -1,0 +1,43 @@
+.ahc-contact {
+    width: 100%;
+    background: #050507;
+    padding: 20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    h2 {
+        font-family: the_next_fontregular;
+        color: #fff;
+
+        .sub.header {
+            color: #C12332;
+            font-family: robotolight;
+        }
+    }
+
+    .divider {
+        width: 40%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .list {
+        .item {
+            .content {
+                text-align: left;
+                font-family: robotobold;
+                color: #fff;
+
+                i {
+                    color: #fff;
+                }
+
+                .header {
+                    font-family: robotolight;
+                    color: #C12332;
+                }
+            }
+        }
+    }
+}

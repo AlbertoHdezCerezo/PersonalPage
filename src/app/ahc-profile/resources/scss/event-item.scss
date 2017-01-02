@@ -1,0 +1,22 @@
+.reveal {
+    .hidden {
+        background: #050507;
+        height: 100%;
+
+        h2 {
+            font-family: the_next_fontregular;
+            color: #fff;
+            margin-top: 40%;
+        }
+
+        .button {
+            margin-top: 15px;
+            font-family: robotoregular;
+        }
+    }
+
+    img {
+        border-radius: 0px !important;
+        width: 100%;
+    }
+}

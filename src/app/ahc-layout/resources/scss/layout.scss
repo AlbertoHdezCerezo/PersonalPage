@@ -34,7 +34,23 @@
                 font-family: robotolight;
                 border: 1px solid #fff;
                 position: fixed;
-                z-index: 1000;
+                left: 50px;
+            }
+
+            :nth-child(1)::after {
+                top: 90px;
+            }
+
+            :nth-child(2)::after {
+                top: 150px;
+            }
+
+            :nth-child(3)::after {
+                top: 210px;
+            }
+
+            :nth-child(4)::after {
+                top: 270px;
             }
         }
     }

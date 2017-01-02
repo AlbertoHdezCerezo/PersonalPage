@@ -15,6 +15,9 @@ import { ExperiencePlaceComponent } from './components/ExperiencePlaceComponent'
 import { AcademicRecordComponent } from './components/AcademicRecordComponent';
 import { AcademicRecordPlaceComponent } from './components/AcademicRecordPlaceComponent';
 import { LanguageComponent } from './components/LanguageComponent';
+import { EventComponent } from './components/EventComponent';
+import { EventItemComponent } from './components/EventItemComponent';
+import { ContactComponent } from './components/ContactComponent';
 
 import { ROUTES } from './routes';
 
@@ -31,7 +34,10 @@ import { ROUTES } from './routes';
         ExperienceItemComponent,
         AcademicRecordComponent,
         AcademicRecordPlaceComponent,
-        LanguageComponent
+        EventComponent,
+        EventItemComponent,
+        LanguageComponent,
+        ContactComponent
     ],
     imports: [
         BrowserModule,

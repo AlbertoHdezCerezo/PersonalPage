@@ -1,0 +1,16 @@
+<div class="ahc-event">
+    <h1 class="ui header">
+        <i class="trophy icon"></i>
+        <div class="content">
+            Achievements
+        </div>
+    </h1>
+
+    <!-- LIST OF PROFESSIONAL EXPERIENCE -->
+    <div class="ui four stackable cards">
+        <div *ngFor="let event of events" class="card">
+            <ahc-event-item [eventItem]="event" class="image"></ahc-event-item>
+        </div>
+    </div>
+
+</div>
