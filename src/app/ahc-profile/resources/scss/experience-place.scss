@@ -1,7 +1,6 @@
 .divider {
     i {
-        color: #fff;
-        font-size: 1.4em;
+        margin: 0px;
     }
 }
 
@@ -33,6 +32,67 @@
 
         .item {
             font-size: 0.7em;
+        }
+    }
+}
+
+
+.center {
+    overflow-y: auto;
+    max-height: 100vh;
+
+    h1 {
+        font-size: 2.2em;
+        font-family: the_next_fontregular;
+        margin-bottom: 35px;
+    }
+
+    .grid {
+        margin: 0px;
+    }
+
+    .image {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 0px !important;
+    }
+
+    .content {
+        width: calc(100% - 50px);
+        text-align: left;
+
+        .header {
+            color: #fff;
+            font-family: robotoregular;
+            font-size: 1.2em;
+        }
+
+        .description {
+            h5 {
+                font-family: robotolight;
+                color: #C12332;
+                font-size: 1em;
+
+                .sub {
+                    margin-top: 10px;
+                    font-size: 1em;
+                    font-family: robotolight;
+                    color: #ccc;
+                }
+            }
+        }
+
+        .list {
+            margin-top: 10px;
+
+            .label {
+                background: #C12332;
+                color: #fff;
+                border-radius: 0px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                font-size: 0.8rem;
+            }
         }
     }
 }

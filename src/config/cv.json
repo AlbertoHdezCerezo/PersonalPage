@@ -363,6 +363,31 @@
           ],
           "company": "Grupo de Sistemas Inteligentes, UVa",
           "logo": "/assets/img/gsi.png"
+        },
+        {
+          "starts": "7/2015",
+          "ends": "6/2016",
+          "name": {
+            "en": "Software Engineer & Full Stack Developer",
+            "de": "Software Ingenieur & Full Stack Entwickler",
+            "es": "Ingeniero Software & Desarrollador Full Stack"
+          },
+          "description": {
+            "en": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "de": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "es": "Colaborador del grupo GSI en el desarrollo de una plataforma web, para un cliente externo, destinada a la compra/venta de materiales."
+          },
+          "technologies": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Java",
+            "PostGreSQL",
+            "UML",
+            "Requirements & Use Cases design"
+          ],
+          "company": "Grupo de Sistemas Inteligentes, UVa",
+          "logo": "/assets/img/gsi.png"
         }
       ]
     }

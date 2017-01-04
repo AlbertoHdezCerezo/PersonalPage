@@ -12,6 +12,10 @@
     margin: 0px !important;
 }
 
+.dimmer {
+    overflow-y: auto;
+}
+
 .ahc-loading {
     width: 100vw;
     height: 100vh;

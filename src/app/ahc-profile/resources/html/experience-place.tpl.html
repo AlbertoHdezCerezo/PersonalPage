@@ -3,16 +3,57 @@
         <p>{{experiencePlace.city}}</p>
         <span>{{experiencePlace.starts}} - {{experiencePlace.ends}}</span>
         <div class="ui horizontal divider">
-            <i class="bar icon"></i>
+            <i *ngIf="experiencePlace.city === 'Berlin'" class="de flag"></i>
+            <i *ngIf="experiencePlace.city === 'Poznan'" class="poland flag"></i>
+            <i *ngIf="experiencePlace.city === 'Valladolid' || experiencePlace.city === 'Plasencia'" class="spain flag"></i>
         </div>
         <div *ngIf="experiencePlace.positions.length > 0" class="ui list">
             <div *ngFor="let experienceItem of experiencePlace.positions" class="item">
                 <ahc-experience-item [experienceItem]="experienceItem"></ahc-experience-item>
             </div>
         </div>
-        <button class="ui inverted button">
+        <button (click)="dimmer.show({opacity: 1, transition: 'fade up'})" class="ui inverted button">
             <i class="icon search"></i>
-            details
+            {{"ahc-experience.details" | translate}}
         </button>
     </div>
 </h2>
+
+<sm-dimmer #dimmer>
+    <div class="center"
+         [ngStyle]="{'background-image': 'url(' + experiencePlace.photo + ')'}"
+         style="background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;">
+        <h1 class="ui inverted header">{{experiencePlace.city}}</h1>
+
+        <div class="ui centered grid">
+            <div class="fourteen wide mobile ten wide tablet eight wide computer column">
+
+                <div *ngIf="experiencePlace.positions.length > 0" class="ui list">
+                    <div *ngFor="let experienceItem of experiencePlace.positions" class="item">
+                        <img class="ui avatar image" [src]="experienceItem.logo">
+                        <div class="content">
+                            <div class="header">{{experienceItem.name | multilanguageField}}</div>
+                            <div class="description">
+                                <h5 class="ui header">
+                                    {{experienceItem.company}}, {{experienceItem.starts}} - {{experienceItem.ends}}
+                                    <div class="sub header">
+                                        {{experienceItem.description | multilanguageField}}
+                                    </div>
+                                </h5>
+                                <div class="ui horizontal list">
+                                    <div *ngFor="let technology of experienceItem.technologies" class="item">
+                                        <div class="ui label">
+                                            {{technology}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sm-dimmer>

@@ -21,7 +21,7 @@ import { LayoutComponent } from './components/LayoutComponent';
 /** [Module] Set of Angular components for APP Layout definition */
 export class AhcLayoutModule {
     constructor(private translate: TranslateService) {
-        translate.setTranslation('es', require('./resources/i18n/en.json'), true);
+        translate.setTranslation('es', require('./resources/i18n/es.json'), true);
         translate.setTranslation('en', require('./resources/i18n/en.json'), true);
         translate.setTranslation('de', require('./resources/i18n/de.json'), true);
     }
