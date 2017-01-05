@@ -3,7 +3,9 @@
         <p>{{academicRecordPlace.city}}</p>
         <span>{{academicRecordPlace.starts}} - {{academicRecordPlace.ends}}</span>
         <div class="ui horizontal divider">
-            <i class="bar icon"></i>
+            <i *ngIf="academicRecordPlace.city === 'Berlin'" class="de flag"></i>
+            <i *ngIf="academicRecordPlace.city === 'Poznan'" class="poland flag"></i>
+            <i *ngIf="academicRecordPlace.city === 'Valladolid' || academicRecordPlace.city === 'Plasencia'" class="spain flag"></i>
         </div>
         <div *ngIf="academicRecordPlace.titles.length > 0" class="ui list">
             <div *ngFor="let academicRecordItem of academicRecordPlace.titles" class="item">
@@ -17,9 +19,91 @@
                 </div>
             </div>
         </div>
-        <button class="ui inverted button">
+        <button (click)="dimmer.show({opacity: 1, transition: 'fade up'})" class="ui inverted button">
             <i class="icon search"></i>
-            details
+            {{"ahc-experience.details" | translate}}
         </button>
     </div>
 </h2>
+
+<sm-dimmer #dimmer>
+  <div class="center"
+       [ngStyle]="{'background-image': 'url(' + academicRecordPlace.photo + ')'}"
+       style="background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;">
+      <h1 class="ui inverted header">{{academicRecordPlace.city}}</h1>
+
+      <div class="ui centered grid">
+          <div class="fourteen wide mobile ten wide tablet eight wide computer column">
+
+              <div *ngIf="academicRecordPlace.titles.length > 0" class="ui list">
+                  <div *ngFor="let academicRecordItem of academicRecordPlace.titles" class="item">
+                      <img class="ui avatar image" [src]="academicRecordItem.logo">
+                      <div class="content">
+                          <div class="header">{{academicRecordItem.name | multilanguageField}}</div>
+                          <div class="description">
+                              <h5 class="ui header">
+                                  {{academicRecordItem.center}}, {{academicRecordItem.starts}} - {{academicRecordItem.ends}}
+                                  <div class="sub header">
+                                      {{academicRecordItem.description | multilanguageField}}
+                                  </div>
+                              </h5>
+                          </div>
+
+                          <sm-accordion [options]="{ exclusive: true, on: 'click' }">
+                              <sm-accordion-item *ngIf="academicRecordItem.achievements.length > 0">
+                                  <accordion-title>
+                                      <h2 class="ui header">
+                                          <i class="trophy yellow icon"></i>
+                                          <div class="content">
+                                              {{"ahc-academic-record.awards" | translate}}
+                                          </div>
+                                          <i class="angle down icon"></i>
+                                      </h2>
+                                  </accordion-title>
+                                  <accordion-content>
+                                      <div class="ui list">
+                                          <div *ngFor="let achievement of academicRecordItem.achievements" class="item">
+                                              <i class="student icon"></i>
+                                              <div class="content">
+                                                  {{achievement | multilanguageField}}
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </accordion-content>
+                              </sm-accordion-item>
+                              <sm-accordion-item *ngIf="academicRecordItem.activities.length > 0">
+                                  <accordion-title>
+                                      <h2 class="ui header">
+                                          <i class="soccer icon"></i>
+                                          <div class="content">
+                                            {{"ahc-academic-record.activities" | translate}}
+                                          </div>
+                                          <i class="angle down icon"></i>
+                                      </h2>
+                                  </accordion-title>
+                                  <accordion-content>
+                                      <div class="ui list">
+                                          <div *ngFor="let activity of academicRecordItem.activities" class="item">
+                                              <i class="sun icon"></i>
+                                              <div class="content">
+                                                  {{activity | multilanguageField}}
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </accordion-content>
+                              </sm-accordion-item>
+                          </sm-accordion>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+      <button (click)="dimmer.show({opacity: 1, transition: 'fade up'})" class="circular ui inverted icon button">
+          <i class="icon remove"></i>
+      </button>
+  </div>
+</sm-dimmer>

@@ -43,6 +43,12 @@
                 color: #C12332 !important;
             }
 
+            @media (max-width: 420px) {
+                button {
+                    display: none;
+                }
+            }
+
             button {
                 float: right;
                 font-family: robotoregular;

@@ -1,7 +1,6 @@
 .divider {
     i {
-        color: #fff;
-        font-size: 1.4em;
+        margin: 0px;
     }
 }
 
@@ -55,4 +54,77 @@
 
         }
     }
+}
+
+
+.center {
+  overflow-y: auto;
+  max-height: 100vh;
+
+  h1 {
+    font-size: 2.2em;
+    font-family: the_next_fontregular;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+
+  .grid {
+    margin: 0px;
+  }
+
+  .image {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important;
+  }
+
+  .button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+
+  .content {
+    width: calc(100% - 50px);
+    text-align: left;
+
+    .header {
+      color: #fff;
+      font-family: robotoregular;
+      font-size: 1.2em;
+    }
+
+    .description {
+      h5 {
+        font-family: robotolight;
+        color: #C12332;
+        font-size: 1em;
+
+        .sub {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 1em;
+          font-family: robotolight;
+          color: #ccc;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 0.9em !important;
+      font-family: the_next_fontregular !important;
+    }
+
+    .list {
+      margin: 0px !important;
+      padding: 10px !important;
+      padding-left: 30px !important;
+
+      .item .content {
+        font-size: 1.4em;
+        font-family: robotoregular !important;
+        color: #ccc !important;
+      }
+    }
+  }
 }
