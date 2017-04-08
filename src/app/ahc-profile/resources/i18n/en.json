@@ -7,6 +7,9 @@
     "ahc-academic-record.academic-record": "academic record",
     "ahc-academic-record.awards": "awards",
     "ahc-academic-record.activities": "activities",
-    "ahc-language.languages": "languages"
+    "ahc-language.languages": "languages",
+    "ahc-contact.made-by": "designed and created by Alberto Hernandez Cerezo, 2017",
+    "ahc-contact.implemented-with": "project implemented with Angular 2, Semantic UI and passion",
+    "ahc-contact.phone": "phone"
 }
 

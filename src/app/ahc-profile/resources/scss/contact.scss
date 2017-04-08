@@ -23,7 +23,12 @@
     }
 
     .list {
+        text-align: left;
+
         .item {
+            margin-right: 1em;
+            margin-left: 0em;
+
             .content {
                 text-align: left;
                 font-family: robotobold;
