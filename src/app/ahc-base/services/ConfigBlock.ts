@@ -49,7 +49,6 @@ export class ConfigBlock {
                     request
                         .map( res => res.json() )
                         .catch((error: any) => {
-                            console.error('Error reading ' + envResponse.env + ' configuration file');
                             resolve(error);
                             return Observable.throw(error.json().error || 'Server error');
                         })

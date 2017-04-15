@@ -7,6 +7,7 @@ import { AcademicRecordParser } from './services/AcademicRecordParser';
 import { ExperienceParser } from './services/ExperienceParser';
 import { LanguageParser } from './services/LanguageParser';
 import { MultilanguageFieldPipe } from './pipes/MultilanguageFieldPipe';
+import { RecommendationParser } from './services/RecommendationParser';
 
 @NgModule({
     providers: [
@@ -14,6 +15,7 @@ import { MultilanguageFieldPipe } from './pipes/MultilanguageFieldPipe';
         ExperienceParser,
         AcademicRecordParser,
         LanguageParser,
+        RecommendationParser,
         ConfigBlock
     ],
     declarations: [

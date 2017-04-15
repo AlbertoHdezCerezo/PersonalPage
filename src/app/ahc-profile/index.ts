@@ -17,6 +17,7 @@ import { AcademicRecordPlaceComponent } from './components/AcademicRecordPlaceCo
 import { LanguageComponent } from './components/LanguageComponent';
 import { EventComponent } from './components/EventComponent';
 import { EventItemComponent } from './components/EventItemComponent';
+import { RecommendationComponent } from './components/RecommendationComponent';
 import { ContactComponent } from './components/ContactComponent';
 
 import { ROUTES } from './routes';
@@ -37,6 +38,7 @@ import { ROUTES } from './routes';
         EventComponent,
         EventItemComponent,
         LanguageComponent,
+        RecommendationComponent,
         ContactComponent
     ],
     imports: [

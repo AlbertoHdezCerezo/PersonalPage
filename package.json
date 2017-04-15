@@ -1,13 +1,13 @@
 {
-  "name": "angular2-webpack-starter",
-  "version": "5.1.1",
-  "description": "An Angular 2 Webpack Starter kit featuring Angular 2 (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by AngularClass",
+  "name": "alberto-personal-page",
+  "version": "0.0.1",
+  "description": "Alberto Hernandez Cerezo CV/Personal Page",
   "keywords": [
     "angular2",
     "webpack",
     "typescript"
   ],
-  "author": "Patrick Stapleton <patrick@angularclass.com>",
+  "author": "Alberto Hernandez Cerezo <pascu216@gmail.com>",
   "homepage": "https://github.com/angularclass/angular2-webpack-starter",
   "license": "MIT",
   "scripts": {
@@ -60,15 +60,15 @@
     "webpack": "webpack"
   },
   "dependencies": {
-    "@angular/common": "2.2.1",
-    "@angular/compiler": "2.2.1",
-    "@angular/core": "2.2.1",
-    "@angular/forms": "2.2.1",
-    "@angular/http": "2.2.1",
-    "@angular/platform-browser": "2.2.1",
-    "@angular/platform-browser-dynamic": "2.2.1",
-    "@angular/platform-server": "2.2.1",
-    "@angular/router": "3.2.1",
+    "@angular/common": "^2.2.1",
+    "@angular/compiler": "^2.2.1",
+    "@angular/core": "^2.2.1",
+    "@angular/forms": "^2.2.1",
+    "@angular/http": "^2.2.1",
+    "@angular/platform-browser": "^2.2.1",
+    "@angular/platform-browser-dynamic": "^2.2.1",
+    "@angular/platform-server": "^2.2.1",
+    "@angular/router": "^3.2.1",
     "@angularclass/conventions-loader": "^1.0.2",
     "@angularclass/hmr": "~1.2.2",
     "@angularclass/hmr-loader": "~3.0.2",
@@ -84,7 +84,7 @@
   },
   "devDependencies": {
     "@types/hammerjs": "^2.0.33",
-    "@types/jasmine": "^2.2.34",
+    "@types/jasmine": "2.2.34",
     "@types/node": "^6.0.38",
     "@types/selenium-webdriver": "2.53.33",
     "@types/source-map": "^0.1.27",

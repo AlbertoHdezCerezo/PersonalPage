@@ -1,4 +1,4 @@
-import EventIteration from "./EventIteration";
+import EventIteration from './EventIteration';
 
 export default class Event {
 

@@ -391,5 +391,14 @@
         }
       ]
     }
+  ],
+  "recommendations": [
+    {
+      "person": "José Belarmino Pulido Junquera",
+      "position": "Profesor en universidad de Valladolid",
+      "document": "",
+      "logo": "/assets/img/gsi.png",
+      "contact": ""
+    }
   ]
 }
