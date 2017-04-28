@@ -8,7 +8,7 @@
         {
           "year": "2013",
           "project": "3D AR Book",
-          "logo": null,
+          "logo": "assets/img/hackForGood.png",
           "description": {
             "en": "Design of a 3D AR book for kids",
             "es": "Diseño de un libro 3D con realidad aumentada para niños",
@@ -37,10 +37,11 @@
       "iterations": [
         {
           "year": "2013",
+          "project": "Curso de Modelado 3D con Blender",
           "description": {
-            "en": "Blender 3D Modeling course",
-            "es": "Curso de Modelado 3D con Blender",
-            "de": "Blender 3D Modeling course"
+            "en": "Blender 3D Modeling course, composed by lessons related to basic 3D modeling, material design, textures, animation and post-processing techniques",
+            "es": "Curso de Modelado 3D con Blender, aprendiendo el modelado básico de figuras 3D, aplicación de texturas, diseño de materiales, animación y post-procesado",
+            "de": "Blender 3D Modeling course, composed by lessons related to basic 3D modeling, material design, textures, animation and post-processing techniques"
           },
           "technology": ["Blender"]
         }
@@ -60,7 +61,7 @@
             "de": "Social platform for events/plans organisation with friends in an efficient and not-intrusive way"
           },
           "technology": ["Meteor", "Semantic UI", "Phonegap", "Facebook API"],
-          "award": "2º Position in first round (Poznan, Poland), classified to finals (Cork, Ireland)"
+          "award": "2º Position in first round (Poznan, Poland), 4º Position in final round (Cork, Ireland)"
         }
       ]
     },
@@ -109,9 +110,9 @@
           "project": "DxPCs",
           "logo": "assets/img/gsi.png",
           "description": {
-            "en": "AI System for Automatic Diagnosis via Possible Conflicts. Career Thesis which was presented as article to DX 14.",
+            "en": "AI System for Automatic Diagnosis via Possible Conflicts. Career Thesis which was presented as article to DX 14",
             "es": "Sistema de AI para el diagnóstico automático vía Posibles Conflictos. Proyecto fin de carrera presentado como artículo al evento DX 14",
-            "de": "AI System for Automatic Diagnosis via Possible Conflicts. Career Thesis which was presented as article to DX 14."
+            "de": "AI System for Automatic Diagnosis via Possible Conflicts. Career Thesis which was presented as article to DX 14"
           },
           "technology": ["Matlab", "AI", "MySQL", "PCs", "Bond Graphs"],
           "award": "Nominated to Best Tool Paper Award"
@@ -127,9 +128,9 @@
           "project": "Characterizing and computing HBG-PCs for hybrid systems fault diagnosis",
           "logo": "assets/img/gsi.png",
           "description": {
-            "en": "Article, application of Possible Conflicts to Hybrid Systems for its diagnose in real time.",
+            "en": "Article, application of Possible Conflicts to Hybrid Systems for its diagnose in real time",
             "es": "Sistema de AI para el diagnóstico automático vía Posibles Conflictos. Proyecto fin de carrera presentado como artículo al evento DX 14",
-            "de": "Article, application of Possible Conflicts to Hybrid Systems for its diagnose in real time."
+            "de": "Article, application of Possible Conflicts to Hybrid Systems for its diagnose in real time"
           },
           "technology": ["Matlab", "AI", "MySQL", "PCs", "Hybrid Bond Graphs"],
           "award": null
@@ -200,7 +201,7 @@
   "academicRecord": [
     {
       "city": "Valladolid",
-      "starts": "9/2009",
+      "starts": "9/2013",
       "ends": "9/2015",
       "photo": "/assets/img/valladolid.jpg",
       "titles": [
@@ -240,6 +241,11 @@
           ],
           "achievements": [
             {
+              "en": "Award to the best Academic Record",
+              "es": "Premio al mejor expediente académico",
+              "de": "2 Honorific Mentions achieved"
+            },
+            {
               "en": "2 Honorific Mentions achieved",
               "es": "2 Matrículas de Honor obtenidas",
               "de": "2 Honorific Mentions achieved"
@@ -255,6 +261,100 @@
               "de": "Best Thesis Award: System Diagnosis via Hybrid Possible Conflicts"
             }
           ]
+        },
+        {
+          "starts": "9/2012",
+          "ends": "9/2013",
+          "score": "8,423 out of 10",
+          "award": true,
+          "name": {
+            "en": "Degree in Computer Science",
+            "es": "Grado en Ingeniería Informática",
+            "de": "Grad in Ingenieurinformatik"
+          },
+          "description": {
+            "en": "Graduated with Honors. Specialized in Artifical Intelligence for Diagnosis, UI/UX design and Software Project Quality Management",
+            "es": "Graduado con Honores. Especializado en asignaturas de Inteligencia Artificial, diseño UI/UX y calidad/auditoría de proyectos software",
+            "de": "Graduated with Honors. Specialized in Artifical Intelligence for Diagnosis, UI/UX design and Software Project Quality Management"
+          },
+          "center": "Escuela Técnica Superior de Ingeniería Informática, Campus Miguel Delibes, Universidad de Valladolid",
+          "logo": "/assets/img/uva.png",
+          "activities": [
+            {
+              "en": "Swimming Team",
+              "es": "Grupo de Natación",
+              "de": "Schwimmsport Team"
+            },
+            {
+              "en": "Cycling Group",
+              "es": "Grupo de Ciclismo",
+              "de": "Radfahren Team"
+            }
+          ],
+          "achievements": [
+            {
+              "en": "Award to the best Academic Record",
+              "es": "Premio al mejor expediente académico",
+              "de": "Award to the best Academic Record"
+            },
+            {
+              "en": "GSI Research Grant obtained",
+              "es": "Obtenida Beca de Colaboración del Grupo de Investigación GSI",
+              "de": "GSI Research Grant obtained"
+            }
+          ]
+        },
+        {
+          "starts": "9/2009",
+          "ends": "9/2012",
+          "score": "8,269 out of 10",
+          "award": false,
+          "name": {
+            "en": "Technical Computer Engineering in Systems",
+            "es": "Ingeniería Técnica Informática de Sistemas",
+            "de": "Technical Computer Engineering in Systems"
+          },
+          "description": {
+            "en": "Graduated with Honors. Specialized in Artifical Intelligence for Diagnosis, UI/UX design and Software Project Quality Management",
+            "es": "Introducción al mundo de la informática",
+            "de": "Graduated with Honors. Specialized in Artifical Intelligence for Diagnosis, UI/UX design and Software Project Quality Management"
+          },
+          "center": "Escuela Técnica Superior de Ingeniería Informática, Campus Miguel Delibes, Universidad de Valladolid",
+          "logo": "/assets/img/uva.png",
+          "activities": [
+            {
+              "en": "Ninjutsu Group",
+              "es": "Grupo de Ninjutsu",
+              "de": "Ninjutsu Team"
+            },
+            {
+              "en": "I FORO DE HABILIDADES DIRECTIVAS: 'CONVIÉRTETE EN UN PROFESIONAL DE ÉXITO'",
+              "es": "I FORO DE HABILIDADES DIRECTIVAS: 'CONVIÉRTETE EN UN PROFESIONAL DE ÉXITO'",
+              "de": "I FORO DE HABILIDADES DIRECTIVAS: 'CONVIÉRTETE EN UN PROFESIONAL DE ÉXITO'"
+            },
+            {
+              "en": "V SEMANA DE LA INFORMACIÓN 'SOCIEDAD Y COMPROMISO CON LA VERDAD'",
+              "es": "V SEMANA DE LA INFORMACIÓN 'SOCIEDAD Y COMPROMISO CON LA VERDAD'",
+              "de": "V SEMANA DE LA INFORMACIÓN 'SOCIEDAD Y COMPROMISO CON LA VERDAD'"
+            },
+            {
+              "en": "CURSO-TALLER AMUVA DE CONSTRUCCIÓN DE MICROBOTS RASTREADORES",
+              "es": "CURSO-TALLER AMUVA DE CONSTRUCCIÓN DE MICROBOTS RASTREADORES",
+              "de": "CURSO-TALLER AMUVA DE CONSTRUCCIÓN DE MICROBOTS RASTREADORES"
+            }
+          ],
+          "achievements": [
+            {
+              "en": "9 Honorific Mentions achieved",
+              "es": "9 Matrículas de Honor obtenidas",
+              "de": "9 Honorific Mentions achieved"
+            },
+            {
+              "en": "GSI Research Grant obtained",
+              "es": "Obtenida Beca de Colaboración del Grupo de Investigación GSI",
+              "de": "GSI Research Grant obtained"
+            }
+          ]
         }
       ]
     }
@@ -262,13 +362,53 @@
   "experience": [
     {
       "city": "Berlin",
-      "starts": "4/2016",
+      "starts": "4/2017",
       "ends": "now",
       "photo": "/assets/img/berlin.jpg",
       "positions": [
         {
           "starts": "4/2016",
           "ends": "now",
+          "name": {
+            "en": "FrontEnd Developer, Junior Backend Developer & API Evangelist",
+            "de": "FrontEnd Entwickler, Junior Backend Entwickler & API Evangelist",
+            "es": "Desarrollador Frontend, Desarrollador Junior Backend & promotor de API"
+          },
+          "description": {
+            "en": "",
+            "de": "",
+            "es": ""
+          },
+          "technologies": [
+            "Angular2",
+            "Bootstrap",
+            "Chai",
+            "Confluence",
+            "CSS",
+            "Google Material Design",
+            "HTML",
+            "Jasmine",
+            "Jira",
+            "JS",
+            "Materialize",
+            "Meteor",
+            "Mocha",
+            "PHP",
+            "PHPUnit",
+            "SwaggerUI",
+            "SASS",
+            "SemanticUI",
+            "Symfony",
+            "TS",
+            "VideoJS",
+            "Vue.js 2"
+          ],
+          "company": "Funke Digital TV Guide",
+          "logo": "/assets/img/funke.png"
+        },
+        {
+          "starts": "4/2016",
+          "ends": "2/2017",
           "name": {
             "en": "FrontEnd Developer & API Evangelist",
             "de": "FrontEnd Entwickler & API Evangelist",
@@ -282,14 +422,23 @@
           "technologies": [
             "Angular",
             "Angular2",
+            "Backbone",
             "Bootstrap",
-            "SemanticUI",
-            "Enyo",
-            "Meteor",
-            "SwaggerUI",
-            "HTML",
+            "Chai",
+            "Confluence",
             "CSS",
+            "Enyo",
+            "HTML",
+            "Jasmine",
+            "Jenkins",
+            "Jira",
             "JS",
+            "Karma",
+            "Meteor",
+            "Mocha",
+            "SwaggerUI",
+            "SASS",
+            "SemanticUI",
             "TS",
             "VideoJS"
           ],

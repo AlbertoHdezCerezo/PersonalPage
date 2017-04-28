@@ -26,14 +26,15 @@
                     <div *ngFor="let eventParticipation of eventItem.iterations" class="item">
                         <img class="ui avatar image" [src]="eventParticipation.logo">
                         <div class="content">
-                            <div class="header">{{eventParticipation.year}} - {{eventParticipation.project}}</div>
+                            <div class="header">{{eventParticipation.project}}</div>
                             <div class="description">
                                 <h5 class="ui header">
+                                    {{eventParticipation.year}}
                                     <div class="sub header">
                                         {{eventParticipation.description | multilanguageField}}
                                     </div>
                                 </h5>
-                                <div class="ui horizontal divider">
+                                <div *ngIf="eventParticipation.award" class="ui horizontal divider">
                                     <i class="trophy yellow icon"></i>
                                     {{eventParticipation.award}}
                                 </div>
