@@ -176,9 +176,9 @@
       "language": "Deutsch",
       "level": "A2",
       "description": {
-        "en":"Took part in four courses: A1 (Spain), A1+1, A1+2, A2+1 (Germany, Anda Sprachschule)",
-        "de":"Took part in four courses: A1 (Spain), A1+1, A1+2, A2+1 (Germany, Anda Sprachschule)",
-        "es":"Realizados cuatro cursos de idiomas: A1 (España), A1+1, A1+2, A2+1 (Alemania, Anda Sprachschule)"
+        "en":"Took part in five courses: A1 (Spain), A1+1, A1+2, A2+1, B1+1 (Germany, Anda Sprachschule)",
+        "de":"Took part in five courses: A1 (Spain), A1+1, A1+2, A2+1, B1+1 (Germany, Anda Sprachschule)",
+        "es":"Realizados cinco cursos de idiomas: A1 (España), A1+1, A1+2, A2+1, B1+1 (Alemania, Anda Sprachschule)"
       },
       "certificates": []
     },
@@ -211,7 +211,7 @@
           "score": "8,567 out of 10",
           "award": true,
           "name": {
-            "en": "Master in Computer Science",
+            "en": "Master Degree in Computer Science",
             "es": "Master en Ingeniería Informática",
             "de": "Master Ingenieurinformatik"
           },
@@ -361,23 +361,105 @@
   ],
   "experience": [
     {
+      "city": "Leipzig",
+      "starts": "7/2017",
+      "ends": "now",
+      "photo": "/assets/img/poznan.jpg",
+      "positions": [
+        {
+          "starts": "9/2017",
+          "ends": "now",
+          "name": {
+            "en": "Full Stack Freelance Developer",
+            "de": "Full Stack Freelance Developer",
+            "es": "Desarrollador Autónomo Full Stack"
+          },
+          "description": {
+            "en": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them.",
+            "de": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them.",
+            "es": "Responsable del desarrollo de proyectos internos basados en PHP & Symfony (backend)/Angular (frontend), encargándome de la documentación, diseño de arquitectura, diseño de la interfaz e implementación de éstos."
+          },
+          "technologies": [
+            "Angular2",
+            "Bootstrap",
+            "Chai",
+            "Confluence",
+            "CSS",
+            "Google Material Design",
+            "HTML",
+            "Jasmine",
+            "Jira",
+            "JS",
+            "Materialize",
+            "Meteor",
+            "Mocha",
+            "PHP",
+            "PHPUnit",
+            "SwaggerUI",
+            "SASS",
+            "SemanticUI",
+            "Symfony",
+            "TS",
+            "VideoJS",
+            "Vue.js 2"
+          ],
+          "company": "Funke Digital TV Guide",
+          "logo": "/assets/img/funke.png"
+        },
+        {
+          "starts": "7/2017",
+          "ends": "now",
+          "name": {
+            "en": "Software Engineer and Full Stack Developer",
+            "de": "Software Engineer and Full Stack Developer",
+            "es": "Ingeniero Software y Desarrollador Full Stack"
+          },
+          "description": {
+            "en": "Software Engineer and Full Stack Developer in DOCYET. Responsible of the development and deployment of the application, and team coordinator. Currently I am also studying about NLP for understanding and development of new techniques to implement in our chatbot.",
+            "de": "Software Engineer and Full Stack Developer in DOCYET. Responsible of the development and deployment of the application, and team coordinator. Currently I am also studying about NLP for understanding and development of new techniques to implement in our chatbot.",
+            "es": "Ingeniero Software y Desarrollador Full Stack en DOCYET. Responsable del desarrollo y lanzamiento a producción de la aplicación; y de la coordinación del equipo. También estoy estudiando y realizando cursos para el entiendimiento y el desarrolloo de técnicas de NLP para su aplicación en nuestro chatbot."
+          },
+          "technologies": [
+            "Ruby",
+            "Ruby on Rails",
+            "PostgreSQL",
+            "PostGis",
+            "Passenger",
+            "Ember",
+            "Chatbot",
+            "AI",
+            "NLP",
+            "Vagrant",
+            "Amazon Web Services",
+            "Linux",
+            "Nginx",
+            "SCRUMM",
+            "Agile Methodologies",
+            "Gitlab"
+          ],
+          "company": "DOCYET",
+          "logo": "/assets/img/docyet.png"
+        }
+      ]
+    },
+    {
       "city": "Berlin",
       "starts": "4/2017",
-      "ends": "now",
+      "ends": "10/2017",
       "photo": "/assets/img/berlin.jpg",
       "positions": [
         {
-          "starts": "4/2016",
-          "ends": "now",
+          "starts": "2/2017",
+          "ends": "7/2017",
           "name": {
             "en": "FrontEnd Developer, Junior Backend Developer & API Evangelist",
             "de": "FrontEnd Entwickler, Junior Backend Entwickler & API Evangelist",
             "es": "Desarrollador Frontend, Desarrollador Junior Backend & promotor de API"
           },
           "description": {
-            "en": "",
-            "de": "",
-            "es": ""
+            "en": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them",
+            "de": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them",
+            "es": "Responsable del desarrollo de proyectos internos basados en PHP & Symfony (backend)/Angular (frontend), encargándome de la documentación, diseño de arquitectura, diseño de la interfaz e implementación de éstos"
           },
           "technologies": [
             "Angular2",
@@ -415,9 +497,9 @@
             "es": "Desarrollador Frontend & promotor de API"
           },
           "description": {
-            "en": "",
-            "de": "",
-            "es": ""
+            "en": "Responsible of the design and implementation of UIs for different projects using different frameworks (angular, vue.js, enyo). UI designer and developer of the UNICORN project, which was awarded with the Google DNA award and currently is being used by different newspapers in Berlin (Berliner MorgenPost).",
+            "de": "Responsible of the design and implementation of UIs for different projects using different frameworks (angular, vue.js, enyo). UI designer and developer of the UNICORN project, which was awarded with the Google DNA award and currently is being used by different newspapers in Berlin (Berliner MorgenPost).",
+            "es": "Responsable del diseño e implementación de interfaces para diferentes proyectos empleando diferentes frameworks (angular, vue.js, enyo). Destacar el proyecto UNICORN, que fue galardonado con el premio Google DNA y actualmente es usado por diversos medios en Berlín (como Berliner MorgenPost)."
           },
           "technologies": [
             "Angular",
@@ -489,16 +571,16 @@
       "photo": "/assets/img/valladolid.jpg",
       "positions": [
         {
-          "starts": "7/2015",
-          "ends": "6/2016",
+          "starts": "9/2014",
+          "ends": "12/2015",
           "name": {
             "en": "Software Engineer & Full Stack Developer",
             "de": "Software Ingenieur & Full Stack Entwickler",
             "es": "Ingeniero Software & Desarrollador Full Stack"
           },
           "description": {
-            "en": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
-            "de": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "en": "",
+            "de": "Working as university employee for the GSI Group. Designing and developing a web platform for the exchange of raw material stock, for an external client",
             "es": "Colaborador del grupo GSI en el desarrollo de una plataforma web, para un cliente externo, destinada a la compra/venta de materiales."
           },
           "technologies": [
@@ -514,26 +596,25 @@
           "logo": "/assets/img/gsi.png"
         },
         {
-          "starts": "7/2015",
-          "ends": "6/2016",
+          "starts": "9/2012",
+          "ends": "12/2015",
           "name": {
-            "en": "Software Engineer & Full Stack Developer",
-            "de": "Software Ingenieur & Full Stack Entwickler",
-            "es": "Ingeniero Software & Desarrollador Full Stack"
+            "en": "AI Researcher",
+            "de": "AI Researcher",
+            "es": "Investigador especializado en Inteligencia Artificial"
           },
           "description": {
-            "en": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
-            "de": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
-            "es": "Colaborador del grupo GSI en el desarrollo de una plataforma web, para un cliente externo, destinada a la compra/venta de materiales."
+            "en": "Working as university employee for the GSI Group. Researcher responsible of the study and development of new Automated Diagnoses AI Techniques. Two articles published.",
+            "de": "Working as university employee for the GSI Group. Researcher responsible of the study and development of new Automated Diagnoses AI Techniques. Two articles published.",
+            "es": "Colaborador del grupo GSI en diferentes tareas de investigación relacionadas con Inteligencia Artificial y técnicas de Diagnóstico Automático; llegando a publicar dos artículos."
           },
           "technologies": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "Java",
-            "PostGreSQL",
-            "UML",
-            "Requirements & Use Cases design"
+            "AI",
+            "DxPCs",
+            "Diagnoses",
+            "LaTeX",
+            "Matlab",
+            "Java"
           ],
           "company": "Grupo de Sistemas Inteligentes, UVa",
           "logo": "/assets/img/gsi.png"

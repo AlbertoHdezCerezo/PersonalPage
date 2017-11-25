@@ -8,6 +8,7 @@ import { ExperienceParser } from './services/ExperienceParser';
 import { LanguageParser } from './services/LanguageParser';
 import { MultilanguageFieldPipe } from './pipes/MultilanguageFieldPipe';
 import { RecommendationParser } from './services/RecommendationParser';
+import PopupDirective from './directives/PopupDirective';
 
 @NgModule({
     providers: [
@@ -19,10 +20,12 @@ import { RecommendationParser } from './services/RecommendationParser';
         ConfigBlock
     ],
     declarations: [
-        MultilanguageFieldPipe
+        MultilanguageFieldPipe,
+        PopupDirective
     ],
     exports: [
-        MultilanguageFieldPipe
+        MultilanguageFieldPipe,
+        PopupDirective
     ],
     imports: [
         TranslateModule

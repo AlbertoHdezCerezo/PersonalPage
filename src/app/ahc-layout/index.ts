@@ -4,6 +4,7 @@ import { TranslateService, TranslateModule } from 'ng2-translate';
 import { NgSemanticModule } from 'ng-semantic';
 
 import { LayoutComponent } from './components/LayoutComponent';
+import { AhcBaseModule } from '../ahc-base/index';
 
 @NgModule({
     schemas: [
@@ -15,6 +16,7 @@ import { LayoutComponent } from './components/LayoutComponent';
     imports: [
         TranslateModule,
         NgSemanticModule,
+        AhcBaseModule,
         RouterModule.forRoot([], { useHash: false })
     ]
 })

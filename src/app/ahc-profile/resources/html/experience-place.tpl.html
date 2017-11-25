@@ -3,6 +3,7 @@
         <p>{{experiencePlace.city}}</p>
         <span>{{experiencePlace.starts}} - {{experiencePlace.ends}}</span>
         <div class="ui horizontal divider">
+            <i *ngIf="experiencePlace.city === 'Leipzig'" class="de flag"></i>
             <i *ngIf="experiencePlace.city === 'Berlin'" class="de flag"></i>
             <i *ngIf="experiencePlace.city === 'Poznan'" class="poland flag"></i>
             <i *ngIf="experiencePlace.city === 'Valladolid' || experiencePlace.city === 'Plasencia'" class="spain flag"></i>

@@ -4,57 +4,42 @@
         <sm-accordion [options]="{ exclusive: true, on:'click' }">
             <sm-accordion-item>
                 <accordion-title>
-                    <a class="item" data-tooltip="language"
-                         data-position="right center"
-                         data-inverted="">
+                    <a popup data-content="languages" class="item">
                         <i class="world icon"></i>
                     </a>
                 </accordion-title>
                 <accordion-content>
                     <div class="ui vertical icon text menu ahc-language-menu">
-                        <a class="item" data-tooltip="language"
-                             data-position="right center"
-                             data-inverted=""
-                             (click)="changeLanguage('en')">
+                        <a popup data-content="This popup" class="item"
+                           (click)="changeLanguage('en')">
                             <i class="gb flag"></i>
                         </a>
-                        <a class="item" data-tooltip="experience"
-                             data-position="right center"
-                             data-inverted=""
-                             (click)="changeLanguage('es')">
+                        <a popup data-content="This popup" class="item"
+                           (click)="changeLanguage('es')">
                             <i class="es flag"></i>
                         </a>
-                        <a class="item" data-tooltip="personal records"
-                             data-position="right center"
-                             data-inverted=""
-                             (click)="changeLanguage('de')">
+                        <a popup data-content="This popup" class="item"
+                           (click)="changeLanguage('de')">
                             <i class="de flag"></i>
                         </a>
                     </div>
                 </accordion-content>
             </sm-accordion-item>
         </sm-accordion>
+
         <!-- NAVIGATION SIDEBAR -->
         <div class="ui vertical icon text menu">
-            <a class="item" data-tooltip="experience"
-                data-position="right center"
-                data-inverted="">
-                    <i class="industry icon"></i>
+            <a popup data-content="profesional experience" class="item">
+                <i class="industry icon"></i>
             </a>
-            <a class="item" data-tooltip="personal records"
-                data-position="right center"
-                data-inverted="">
-                    <i class="trophy icon"></i>
+            <a popup data-content="academic record" class="item">
+                <i class="trophy icon"></i>
             </a>
-            <a class="item" data-tooltip="recommendations"
-                data-position="right center"
-                data-inverted="">
-                    <i class="comment icon"></i>
+            <a popup data-content="recommendations" class="item">
+                <i class="comment icon"></i>
             </a>
-            <a class="item" data-tooltip="contact"
-                data-position="right center"
-                data-inverted="">
-                    <i class="mail icon"></i>
+            <a popup data-content="contact information" class="item">
+                <i class="mail icon"></i>
             </a>
         </div>
     </div>
