@@ -1,6 +1,10 @@
+@import '../../../ahc-app/resources/scss/variables';
+
 .ahc-experience {
+    
+
     width: 100%;
-    background: #F2F4F2;
+    background: $background-color;
     padding: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -20,10 +24,8 @@
     }
 
     .card {
-        border-radius: 0px;
-        box-shadow: 0 0 0 0 #D4D4D5;
+        box-shadow: none !important;
         text-align: center;
-        background: #2A2A27;
-        padding: 12px !important;
+        padding: 20px !important;
     }
 }

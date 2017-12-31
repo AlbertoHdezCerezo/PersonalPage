@@ -1,4 +1,4 @@
-<div class="ahc-experience">
+<!-- <div class="ahc-experience">
     <h1 class="ui header">
         <i class="industry icon"></i>
         <div class="content">
@@ -7,7 +7,7 @@
     </h1>
 
     <!-- LIST OF PROFESSIONAL EXPERIENCE -->
-    <div *ngIf="experiencePlaces.length > 0" class="ui two stackable cards">
+    <!-- <div *ngIf="experiencePlaces.length > 0" class="ui two stackable cards">
         <div *ngFor="let experiencePlace of experiencePlaces" class="card"
              [ngStyle]="{'background-image': 'url(' + experiencePlace.photo + ')'}"
              style="background-size: cover;
@@ -17,4 +17,13 @@
              </ahc-experience-place>
         </div>
     </div>
-</div>
+    <ahc-base-place-card></ahc-base-place-card>
+</div> -->
+<ahc-base-section>
+    <base-section-content>
+        <div class="ahc-experience">
+            <ahc-base-place-card></ahc-base-place-card>
+            <ahc-base-place-card></ahc-base-place-card>
+        </div>
+    </base-section-content>
+</ahc-base-section>

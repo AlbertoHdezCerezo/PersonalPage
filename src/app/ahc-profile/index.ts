@@ -23,39 +23,39 @@ import { ContactComponent } from './components/ContactComponent';
 import { ROUTES } from './routes';
 
 @NgModule({
-    schemas: [
-        CUSTOM_ELEMENTS_SCHEMA
-    ],
-    declarations: [
-        MainComponent,
-        HiComponent,
-        PresentationComponent,
-        ExperienceComponent,
-        ExperiencePlaceComponent,
-        ExperienceItemComponent,
-        AcademicRecordComponent,
-        AcademicRecordPlaceComponent,
-        EventComponent,
-        EventItemComponent,
-        LanguageComponent,
-        RecommendationComponent,
-        ContactComponent
-    ],
-    imports: [
-        BrowserModule,
-        TranslateModule,
-        NgSemanticModule,
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
+  declarations: [
+    MainComponent,
+    HiComponent,
+    PresentationComponent,
+    ExperienceComponent,
+    ExperiencePlaceComponent,
+    ExperienceItemComponent,
+    AcademicRecordComponent,
+    AcademicRecordPlaceComponent,
+    EventComponent,
+    EventItemComponent,
+    LanguageComponent,
+    RecommendationComponent,
+    ContactComponent
+  ],
+  imports: [
+    BrowserModule,
+    TranslateModule,
+    NgSemanticModule,
 
-        AhcBaseModule,
+    AhcBaseModule,
 
-        RouterModule.forRoot(ROUTES, { useHash: false })
-    ]
+    RouterModule.forRoot(ROUTES, { useHash: false })
+  ]
 })
 /** [Module] Set of Angular components for APP Layout definition */
 export class AhcProfileModule {
-    constructor(private translate: TranslateService) {
-        translate.setTranslation('es', require('./resources/i18n/es.json'), true);
-        translate.setTranslation('en', require('./resources/i18n/en.json'), true);
-        translate.setTranslation('de', require('./resources/i18n/de.json'), true);
-    }
+  constructor(private translate: TranslateService) {
+    translate.setTranslation('es', require('./resources/i18n/es.json'), true);
+    translate.setTranslation('en', require('./resources/i18n/en.json'), true);
+    translate.setTranslation('de', require('./resources/i18n/de.json'), true);
+  }
 }

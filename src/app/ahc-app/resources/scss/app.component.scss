@@ -1,8 +1,10 @@
+// Import Semantic UI style
+@import '../../../../assets/semantic-ui/dist/semantic.min.css';
+
 // APP General Style
 // =================
 html, body{
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif
 }
 
 span.active {
@@ -16,6 +18,12 @@ span.active {
     margin: 0px;
 }
 
+.ui.popup {
+    border-radius: 0px;
+    font-family: the_next_fontregular;
+    font-size: 0.8em;
+}
+
 .ui.popup.right {
     background: #C12332;
     color: white;
@@ -25,4 +33,9 @@ span.active {
 .ui.popup.right:before {
     background: #C12332 !important;
     box-shadow: none !important;
+}
+
+.button {
+    font-family: the_next_fontregular !important;
+    text-transform: uppercase !important;
 }

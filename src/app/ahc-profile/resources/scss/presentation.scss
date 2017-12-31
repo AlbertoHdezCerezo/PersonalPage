@@ -1,21 +1,20 @@
+@import '../../../ahc-app/resources/scss/variables';
+
 .ahc-presentation {
-    background: #261D1D !important;
+    background: $background-inverted-color !important;
+    padding: 10% 25%;
+    color: $font-white-color;
+    font-family: robotolight;
+    text-align: justify;
+    font-size: 1.2em;
 
-    .grid {
-        margin: 0px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+    i {
+        margin: 0px !important;
+    }
+}
 
-        .column {
-            color: #fff;
-            font-family: robotolight;
-            text-align: justify;
-            font-size: 1.2em;
-
-            i {
-                color: #fff;
-                margin: 0px;
-            }
-        }
+@media (max-width: $mobile-max-size) {
+    .ahc-presentation {
+        padding: 25% 10%;
     }
 }

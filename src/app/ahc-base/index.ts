@@ -9,28 +9,38 @@ import { LanguageParser } from './services/LanguageParser';
 import { MultilanguageFieldPipe } from './pipes/MultilanguageFieldPipe';
 import { RecommendationParser } from './services/RecommendationParser';
 import PopupDirective from './directives/PopupDirective';
+import AnimationDirective from './directives/AnimationDirective';
+import PlaceCardComponent from './components/PlaceCardComponent';
+import SectionComponent from './components/SectionComponent';
 
 @NgModule({
-    providers: [
-        EventParser,
-        ExperienceParser,
-        AcademicRecordParser,
-        LanguageParser,
-        RecommendationParser,
-        ConfigBlock
-    ],
-    declarations: [
-        MultilanguageFieldPipe,
-        PopupDirective
-    ],
-    exports: [
-        MultilanguageFieldPipe,
-        PopupDirective
-    ],
-    imports: [
-        TranslateModule
-    ]
+  providers: [
+    EventParser,
+    ExperienceParser,
+    AcademicRecordParser,
+    LanguageParser,
+    RecommendationParser,
+    ConfigBlock
+  ],
+  declarations: [
+    MultilanguageFieldPipe,
+    PopupDirective,
+    AnimationDirective,
+    SectionComponent,
+    PlaceCardComponent
+  ],
+  exports: [
+    MultilanguageFieldPipe,
+    PopupDirective,
+    AnimationDirective,
+    SectionComponent,
+    PlaceCardComponent
+  ],
+  imports: [
+    TranslateModule
+  ]
 })
 /** [Module] Set of Angular components common to all
- *           remaining APP modules */
+ *           remaining APP modules
+ */
 export class AhcBaseModule {}

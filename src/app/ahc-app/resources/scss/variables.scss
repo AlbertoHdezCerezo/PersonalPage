@@ -1,0 +1,20 @@
+// Define colors for APP
+// ---------------------
+// Color applied for all interactive elements (buttons, touchable divs, etc)
+$action-color: #00B5AD;
+
+// Color applied for all content containers
+$background-color: #FFF;
+
+// Color applied for all non-content containers (like sidebars)
+$background-inverted-color: #0284A8;
+
+// Color for highlighted areas inside content
+$background-highlight-color: #fff;
+
+// We also choose two color styles for basic black/white fonts
+$font-white-color: #fff;
+$font-black-color: #252525;
+
+// Indicates the point where screen changes from mobile to tablet/computer size
+$mobile-max-size: 768px;

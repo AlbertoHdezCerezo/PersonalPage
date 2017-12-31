@@ -1,6 +1,21 @@
 <div class="ahc-hi">
-    <h1 class="ui inverted header">
+    <h1 animation [animationIn]="'fade up'"
+        class="ui inverted centered header">
         Alberto Hdez Cerezo
-        <div class="sub header">{{"ahc-hi.description" | translate}}</div>
+        <div class="sub header">
+            {{"ahc-hi.description" | translate}}
+        </div>
     </h1>
+
+    <div>
+        <button class="ui basic inverted circular big facebook icon button">
+            <i class="skype icon"></i>
+        </button>
+        <button class="ui basic inverted circular big linkedin icon button">
+            <i class="linkedin icon"></i>
+        </button>
+        <button class="ui basic inverted circular big facebook icon button">
+            <i class="mail icon"></i>
+        </button>
+    </div>
 </div>
