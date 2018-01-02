@@ -1,0 +1,17 @@
+@import '../../../ahc-app/resources/scss/variables';
+
+.content {
+  width: calc(100% - 2.5em) !important;
+
+  .header {
+    font-family: robotoregular !important;
+    font-weight: normal;
+    color: $font-white-color !important;
+  }
+
+  .description {
+    font-family: robotolight;
+    font-size: 0.8em;
+    color: $action-color !important;
+  }
+}

@@ -1,0 +1,49 @@
+.image {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 0px !important;
+}
+
+.content {
+  width: calc(100% - 50px);
+  text-align: left;
+
+  .header {
+    color: #fff;
+    font-family: robotoregular;
+    font-size: 1.2em;
+  }
+
+  .description {
+    h5 {
+      font-family: robotolight;
+      color: #C12332;
+      font-size: 1em;
+
+      .sub {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        font-family: robotolight;
+        color: #ccc;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 0.9em !important;
+    font-family: the_next_fontregular !important;
+  }
+
+  .list {
+    margin: 0px !important;
+    padding: 10px !important;
+    padding-left: 30px !important;
+
+    .item .content {
+      font-size: 1.4em;
+      font-family: robotoregular !important;
+      color: #ccc !important;
+    }
+  }
+}

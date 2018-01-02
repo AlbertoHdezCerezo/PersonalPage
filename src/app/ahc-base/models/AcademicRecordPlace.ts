@@ -1,4 +1,4 @@
-import AcademicRecordItem from "./AcademicRecordItem";
+import AcademicRecordItem from './AcademicRecordItem';
 
 export default class AcademicRecordPlace {
     city: string;

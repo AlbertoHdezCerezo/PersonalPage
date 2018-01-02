@@ -1,0 +1,29 @@
+.ahc-base-place-card {
+  height: 100%;
+  box-shadow: none !important;
+  padding: 20px !important;
+  justify-content: flex-start;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  h2 {
+    text-align: center;
+    font-family: the_next_fontregular;
+
+    .sub.header {
+      font-family: robotoregular;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+  }
+
+  & div {
+    flex: 1;
+
+    .button {
+      margin-top: 30px;
+    }
+  }
+}

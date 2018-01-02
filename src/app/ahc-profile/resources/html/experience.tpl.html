@@ -1,29 +1,29 @@
-<!-- <div class="ahc-experience">
-    <h1 class="ui header">
-        <i class="industry icon"></i>
-        <div class="content">
-            Experience
-        </div>
-    </h1>
-
-    <!-- LIST OF PROFESSIONAL EXPERIENCE -->
-    <!-- <div *ngIf="experiencePlaces.length > 0" class="ui two stackable cards">
-        <div *ngFor="let experiencePlace of experiencePlaces" class="card"
-             [ngStyle]="{'background-image': 'url(' + experiencePlace.photo + ')'}"
-             style="background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center center;">
-             <ahc-experience-place [experiencePlace]="experiencePlace">
-             </ahc-experience-place>
-        </div>
-    </div>
-    <ahc-base-place-card></ahc-base-place-card>
-</div> -->
 <ahc-base-section>
     <base-section-content>
         <div class="ahc-experience">
-            <ahc-base-place-card></ahc-base-place-card>
-            <ahc-base-place-card></ahc-base-place-card>
+            <ahc-base-place-card *ngFor="let place of experiencePlaces"
+                                 [header]="place.city"
+                                 [subheader]="place.starts + ' - ' + place.ends"
+                                 [backgroundImageUrl]="place.photo">
+                <base-place-card-content>
+                    <ahc-experience-place [experiencePlace]="place"></ahc-experience-place>
+                </base-place-card-content>
+
+                <base-place-card-dimmer-content>
+                    <div class="ahc-experience-dimmer">
+                        <div class="ui list">
+                            <ahc-base-page-dimmer-item *ngFor="let position of place.positions"
+                               class="item"
+                               [header]="position.name"
+                               [subheader]="position.company"
+                               [content]="position.description"
+                               [logo]="position.logo">
+                                <ahc-base-label-list [labels]="position.technologies"></ahc-base-label-list>
+                            </ahc-base-page-dimmer-item>
+                        </div>
+                    </div>
+                </base-place-card-dimmer-content>
+            </ahc-base-place-card>
         </div>
     </base-section-content>
 </ahc-base-section>

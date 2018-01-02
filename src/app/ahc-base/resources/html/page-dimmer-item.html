@@ -1,0 +1,14 @@
+<img class="ui avatar image" [src]="logo">
+<div class="content">
+  <div class="header">{{header | multilanguageField}}</div>
+  <div class="description">
+    <h5 class="ui header">
+      {{subheader}}
+      <div class="sub header">
+        {{content | multilanguageField}}
+      </div>
+    </h5>
+
+    <ng-content></ng-content>
+  </div>
+</div>

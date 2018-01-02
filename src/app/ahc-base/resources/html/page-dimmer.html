@@ -1,0 +1,14 @@
+<div #dimmer class="ui page dimmer ahc-base-dimmer-page">
+  <div class="content">
+    <div [style.background-image]="'url(' + backgroundImage + ')'"
+         class="center">
+      <h1 class="ui inverted header">{{header}}</h1>
+
+      <div class="ui centered grid">
+        <div class="fourteen wide mobile ten wide tablet eight wide computer column">
+          <ng-content></ng-content>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
