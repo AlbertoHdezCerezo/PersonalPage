@@ -25,11 +25,21 @@
         margin-bottom: 20px;
     }
 
+    .list {
+        width: 100%;
+    }
+
     .ahc-experience-dimmer {
         width: 100%;
 
         .ui.list {
             width: 100%;
         }
+    }
+}
+
+@media (max-width: $mobile-max-size) {
+    .ahc-experience {
+        display: none;
     }
 }

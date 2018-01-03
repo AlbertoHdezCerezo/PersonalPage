@@ -6,7 +6,14 @@
                                  [subheader]="place.starts + ' - ' + place.ends"
                                  [backgroundImageUrl]="place.photo">
                 <base-place-card-content>
-                    <ahc-experience-place [experiencePlace]="place"></ahc-experience-place>
+                    <div class="ui large list">
+                        <ahc-base-place-card-item
+                                *ngFor="let experience of place.positions"
+                                [header]="experience.name"
+                                [subheader]="experience.company"
+                                [logo]="experience.logo"
+                                class="item"></ahc-base-place-card-item>
+                    </div>
                 </base-place-card-content>
 
                 <base-place-card-dimmer-content>

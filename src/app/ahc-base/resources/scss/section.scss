@@ -15,3 +15,9 @@
     }
   }
 }
+
+@media (max-width: $mobile-max-size) {
+  .ahc-base-section {
+    padding: 25px;
+  }
+}

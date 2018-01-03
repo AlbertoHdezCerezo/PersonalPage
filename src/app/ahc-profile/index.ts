@@ -10,7 +10,6 @@ import { MainComponent } from './components/MainComponent';
 import { HiComponent } from './components/HiComponent';
 import { PresentationComponent } from './components/PresentationComponent';
 import { ExperienceComponent } from './components/ExperienceComponent';
-import { ExperiencePlaceComponent } from './components/ExperiencePlaceComponent';
 import { AcademicRecordComponent } from './components/AcademicRecordComponent';
 import { AcademicRecordPlaceComponent } from './components/AcademicRecordPlaceComponent';
 import { LanguageComponent } from './components/LanguageComponent';
@@ -30,7 +29,6 @@ import { ROUTES } from './routes';
     HiComponent,
     PresentationComponent,
     ExperienceComponent,
-    ExperiencePlaceComponent,
     AcademicRecordComponent,
     AcademicRecordPlaceComponent,
     EventComponent,

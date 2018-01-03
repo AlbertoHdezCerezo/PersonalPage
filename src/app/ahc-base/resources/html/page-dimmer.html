@@ -2,6 +2,11 @@
   <div class="content">
     <div [style.background-image]="'url(' + backgroundImage + ')'"
          class="center">
+      <button (click)="toggle()"
+              class="circular ui basic big inverted icon button">
+        <i class="icon remove"></i>
+      </button>
+
       <h1 class="ui inverted header">{{header}}</h1>
 
       <div class="ui centered grid">
