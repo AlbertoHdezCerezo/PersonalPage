@@ -17,6 +17,7 @@ import PlaceCardItemComponent from './components/PlaceCardItemComponent';
 import PageDimmerComponent from './components/PageDimmerComponent';
 import PageDimmerItemComponent from './components/PageDimmerItemComponent';
 import LabelListComponent from './components/LabelListComponent';
+import AccordionDirective from './directives/AccordionDirective';
 
 @NgModule({
   providers: [
@@ -31,6 +32,7 @@ import LabelListComponent from './components/LabelListComponent';
     MultilanguageFieldPipe,
     PopupDirective,
     AnimationDirective,
+    AccordionDirective,
     SectionComponent,
     PageDimmerComponent,
     PageDimmerItemComponent,
@@ -42,6 +44,7 @@ import LabelListComponent from './components/LabelListComponent';
     MultilanguageFieldPipe,
     PopupDirective,
     AnimationDirective,
+    AccordionDirective,
     SectionComponent,
     PageDimmerComponent,
     PageDimmerItemComponent,

@@ -1,18 +1,16 @@
-<div #dimmer class="ui page dimmer ahc-base-dimmer-page">
-  <div class="content">
-    <div [style.background-image]="'url(' + backgroundImage + ')'"
-         class="center">
-      <button (click)="toggle()"
-              class="circular ui basic big inverted icon button">
-        <i class="icon remove"></i>
-      </button>
+<div #dimmer
+     class="ui basic modal ahc-base-dimmer-page">
+  <div [style.background-image]="'url(' + backgroundImage + ')'">
+    <button (click)="toggle()"
+            class="circular ui basic inverted icon button">
+      <i class="icon remove"></i>
+    </button>
 
-      <h1 class="ui inverted header">{{header}}</h1>
+    <h1 class="ui inverted basic header">{{header}}</h1>
 
-      <div class="ui centered grid">
-        <div class="fourteen wide mobile ten wide tablet eight wide computer column">
-          <ng-content></ng-content>
-        </div>
+    <div class="ui centered grid">
+      <div class="fourteen wide mobile ten wide tablet eight wide computer column">
+        <ng-content></ng-content>
       </div>
     </div>
   </div>

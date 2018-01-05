@@ -1,0 +1,20 @@
+h2 {
+  color: white !important;
+  font-size: 0.9em !important;
+  font-family: the_next_fontregular !important;
+}
+
+.list {
+  margin: 0px !important;
+  padding: 10px !important;
+  padding-left: 30px !important;
+
+  .item {
+    color: #fff !important;
+
+    .content {
+      font-family: robotoregular !important;
+      color: #fff !important;
+    }
+  }
+}

@@ -10,6 +10,13 @@ import ExperiencePlace from '../../ahc-base/models/ExperiencePlace';
 })
 /** [Component] List of professional experience component */
 export class ExperienceComponent{
+  public config: Object = {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    spaceBetween: 30
+  };
 
     public experiencePlaces: ExperiencePlace[] = [];
 

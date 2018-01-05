@@ -16,6 +16,6 @@ export default class PageDimmerComponent {
   constructor() {};
 
   public toggle() {
-    $(this.dimmer.nativeElement).dimmer('toggle');
+    $(this.dimmer.nativeElement).modal('toggle');
   }
 }

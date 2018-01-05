@@ -1,27 +1,34 @@
-<div [style.background-image]="'url(' + backgroundImageUrl + ')'"
-     class="ui fluid card ahc-base-place-card">
-  <h2 class="ui inverted header">
-    {{header}}
-    <div class="sub header">{{subheader}}</div>
+<div (click)="placeCardDimmer.toggle()"
+     class="ui fade reveal">
+  <div [style.background-image]="'url(' + backgroundImageUrl + ')'"
+       class="visible ui fluid card content ahc-base-place-card">
+    <h2 class="ui inverted header">
+      {{header}}
 
-    <div class="ui horizontal divider">
-      <i class="france flag"></i>
-    </div>
-  </h2>
+      <div class="ui horizontal divider">
+        <i class="france flag"></i>
+      </div>
 
-  <div>
-    <ng-content select="base-place-card-content"></ng-content>
-
-    <button (click)="placeCardDimmer.toggle()"
-            class="ui fluid inverted button">
-      <i class="icon search"></i>
-      {{"ahc-experience.details" | translate}}
-    </button>
+      <div class="sub header">{{subheader}}</div>
+    </h2>
   </div>
+  <div class="hidden content">
+    <div [style.background-image]="'url(' + backgroundImageUrl + ')'"
+         class="ui fluid card ahc-base-place-card">
+      <div>
+        <ng-content select="base-place-card-content"></ng-content>
 
-  <ahc-base-page-dimmer #placeCardDimmer
-                        [header]="header"
-                        [backgroundImage]="backgroundImageUrl">
-      <ng-content select="base-place-card-dimmer-content"></ng-content>
-  </ahc-base-page-dimmer>
+        <button class="ui fluid inverted button">
+          <i class="icon search"></i>
+          {{"ahc-experience.details" | translate}}
+        </button>
+      </div>
+
+      <ahc-base-page-dimmer #placeCardDimmer
+                            [header]="header"
+                            [backgroundImage]="backgroundImageUrl">
+        <ng-content select="base-place-card-dimmer-content"></ng-content>
+      </ahc-base-page-dimmer>
+    </div>
+  </div>
 </div>

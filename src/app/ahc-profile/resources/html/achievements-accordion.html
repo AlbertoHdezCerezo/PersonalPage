@@ -1,0 +1,43 @@
+<div accordion class="ui inverted accordion">
+  <div class="title">
+    <h2 class="ui header">
+      <i class="trophy yellow icon"></i>
+      <div class="content">
+        {{"ahc-academic-record.awards" | translate}}
+      </div>
+      <i class="angle down icon"></i>
+    </h2>
+  </div>
+  <div class="content">
+    <div class="ui inverted list">
+      <div *ngFor="let achievement of academicRecordItem.achievements" class="item">
+        <i class="student icon"></i>
+        <div class="content">
+          {{achievement | multilanguageField}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div accordion class="ui inverted accordion">
+  <div class="title">
+    <h2 class="ui header">
+      <i class="soccer icon"></i>
+      <div class="content">
+        {{"ahc-academic-record.awards" | translate}}
+      </div>
+      <i class="angle down icon"></i>
+    </h2>
+  </div>
+  <div class="content">
+    <div class="ui inverted list">
+      <div *ngFor="let activity of academicRecordItem.activities" class="item">
+        <i class="sun icon"></i>
+        <div class="content">
+          {{activity | multilanguageField}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 // Import Semantic UI style
-@import '../../../../assets/semantic-ui/dist/semantic.min.css';
+@import 'variables';
 
 // APP General Style
 // =================
@@ -38,4 +38,35 @@ span.active {
 .button {
     font-family: the_next_fontregular !important;
     text-transform: uppercase !important;
+}
+
+.ui.dimmer.modals.page {
+    width: 100vw !important;
+    overflow: hidden !important;
+}
+
+.ui.basic.modal.ahc-base-dimmer-page.scrolling.transition.visible.active,
+.ui.basic.modal.ahc-base-dimmer-page.scrolling {
+    margin: 0px !important;
+    overflow: hidden;
+}
+
+// Swiper JS Fixes
+// ---------------
+swiper {
+    display: none !important;
+}
+
+@media (max-width: $mobile-max-size) {
+    swiper {
+        display: block !important;
+    }
+}
+
+.swiper-container-horizontal {
+    padding-bottom: 30px;
+}
+
+.swiper-pagination-bullet-active {
+    background: $action-color !important;
 }

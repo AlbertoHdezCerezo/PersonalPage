@@ -1,20 +1,75 @@
-<div class="ahc-academic-record">
-    <h1 class="ui header">
-        <i class="student icon"></i>
-        <div class="content">
-            {{"ahc-academic-record.academic-record" | translate}}
-        </div>
-    </h1>
+<ahc-base-section>
+    <base-section-content>
+        <div class="ahc-academic-record">
+            <ahc-base-place-card *ngFor="let place of academicRecordPlaces"
+                                 [header]="place.city"
+                                 [subheader]="place.starts + ' - ' + place.ends"
+                                 [backgroundImageUrl]="place.photo">
+                <base-place-card-content>
+                    <div class="ui large list">
+                        <ahc-base-place-card-item
+                                *ngFor="let title of place.titles"
+                                [header]="title.name"
+                                [subheader]="title.center"
+                                [logo]="title.logo"
+                                class="item"></ahc-base-place-card-item>
+                    </div>
+                </base-place-card-content>
 
-    <!-- LIST OF PROFESSIONAL EXPERIENCE -->
-    <div *ngIf="academicRecordPlaces.length > 0" class="ui one stackable cards">
-        <div *ngFor="let academicRecordPlace of academicRecordPlaces" class="card"
-             [ngStyle]="{'background-image': 'url(' + academicRecordPlace.photo + ')'}"
-             style="background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center center;">
-             <ahc-academic-record-place [academicRecordPlace]="academicRecordPlace">
-             </ahc-academic-record-place>
+                <base-place-card-dimmer-content>
+                    <div class="ahc-academic-record-dimmer">
+                        <div class="ui list">
+                            <ahc-base-page-dimmer-item *ngFor="let title of place.titles"
+                                                       class="item"
+                                                       [header]="title.name"
+                                                       [subheader]="title.center"
+                                                       [content]="title.description"
+                                                       [logo]="title.logo">
+                                <ahc-achievements-accordion [academicRecordItem]="title"></ahc-achievements-accordion>
+                            </ahc-base-page-dimmer-item>
+                        </div>
+                    </div>
+                </base-place-card-dimmer-content>
+            </ahc-base-place-card>
         </div>
-    </div>
-</div>
+
+        <!-- SLIDER FOR MOBILE DISPLAY -->
+        <swiper class="ahc-experience-swipper" [config]="config">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" *ngFor="let place of academicRecordPlaces">
+                    <ahc-base-place-card [header]="place.city"
+                                         [subheader]="place.starts + ' - ' + place.ends"
+                                         [backgroundImageUrl]="place.photo">
+                        <base-place-card-content>
+                            <div class="ui large list">
+                                <ahc-base-place-card-item
+                                        *ngFor="let title of place.titles"
+                                        [header]="title.name"
+                                        [subheader]="title.center"
+                                        [logo]="title.logo"
+                                        class="item"></ahc-base-place-card-item>
+                            </div>
+                        </base-place-card-content>
+
+                        <base-place-card-dimmer-content>
+                            <div class="ahc-experience-dimmer">
+                                <div class="ui list">
+                                    <ahc-base-page-dimmer-item *ngFor="let title of place.titles"
+                                                               class="item"
+                                                               [header]="title.name"
+                                                               [subheader]="title.center"
+                                                               [content]="title.description"
+                                                               [logo]="title.logo">
+                                        <ahc-achievements-accordion [academicRecordItem]="title"></ahc-achievements-accordion>
+                                    </ahc-base-page-dimmer-item>
+                                </div>
+                            </div>
+                        </base-place-card-dimmer-content>
+                    </ahc-base-place-card>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </swiper>
+    </base-section-content>
+</ahc-base-section>

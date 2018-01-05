@@ -15,3 +15,13 @@
     color: $action-color !important;
   }
 }
+
+@media (max-width: $mobile-max-size) {
+  img {
+    display: none !important;
+  }
+
+  .content {
+    width: 100% !important;
+  }
+}

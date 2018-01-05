@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { TranslateService, TranslateModule } from 'ng2-translate';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgSemanticModule } from 'ng-semantic';
+import { SwiperModule } from 'angular2-useful-swiper';
 
 import { AhcBaseModule } from '../ahc-base/index';
 
@@ -11,12 +12,12 @@ import { HiComponent } from './components/HiComponent';
 import { PresentationComponent } from './components/PresentationComponent';
 import { ExperienceComponent } from './components/ExperienceComponent';
 import { AcademicRecordComponent } from './components/AcademicRecordComponent';
-import { AcademicRecordPlaceComponent } from './components/AcademicRecordPlaceComponent';
 import { LanguageComponent } from './components/LanguageComponent';
 import { EventComponent } from './components/EventComponent';
 import { EventItemComponent } from './components/EventItemComponent';
 import { RecommendationComponent } from './components/RecommendationComponent';
 import { ContactComponent } from './components/ContactComponent';
+import { AchievementsAccordionComponent } from './components/AchievementsAccordionComponent';
 
 import { ROUTES } from './routes';
 
@@ -30,17 +31,18 @@ import { ROUTES } from './routes';
     PresentationComponent,
     ExperienceComponent,
     AcademicRecordComponent,
-    AcademicRecordPlaceComponent,
     EventComponent,
     EventItemComponent,
     LanguageComponent,
     RecommendationComponent,
-    ContactComponent
+    ContactComponent,
+    AchievementsAccordionComponent
   ],
   imports: [
     BrowserModule,
     TranslateModule,
     NgSemanticModule,
+    SwiperModule,
 
     AhcBaseModule,
 

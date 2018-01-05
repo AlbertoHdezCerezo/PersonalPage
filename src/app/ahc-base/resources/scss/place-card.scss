@@ -1,8 +1,19 @@
+@import '../../../ahc-app/resources/scss/variables';
+
+.reveal, .hidden.content {
+  width: 100%;
+}
+
+.visible.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .ahc-base-place-card {
   height: 100%;
-  box-shadow: none !important;
   padding: 20px !important;
-  justify-content: flex-start;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -24,6 +35,33 @@
 
     .button {
       margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: $mobile-max-size) {
+  .reveal {
+    display: block;
+    width: 80%;
+    margin: auto;
+
+    // Centers visible content with hidden
+    .visible.content {
+      height: calc(100% - 40px);
+      right: 0px;
+    }
+  }
+
+  .ahc-base-place-card {
+    width: 80% !important;
+    margin: auto;
+
+    & div {
+      .button {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60% !important;
+      }
     }
   }
 }

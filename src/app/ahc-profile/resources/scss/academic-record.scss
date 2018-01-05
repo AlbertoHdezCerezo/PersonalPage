@@ -1,30 +1,49 @@
+@import '../../../ahc-app/resources/scss/variables';
+
 .ahc-academic-record {
-    width: 100%;
-    background: #F2F4F2;
-    padding: 20px;
-    padding-bottom: 60px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
 
-    h1 {
-        font-size: 2.2em;
-        font-family: the_next_fontregular;
-        margin-bottom: 35px;
-
-        .sub.header {
-            font-family: robotobold;
-        }
-
-        i {
-            font-size: 0.8em;
-        }
+    ahc-base-place-card {
+        display: flex;
     }
 
-    .card {
-        border-radius: 0px;
-        box-shadow: 0 0 0 0 #D4D4D5;
-        text-align: center;
-        background: #2A2A27;
-        padding: 12px !important;
-        margin: 0px !important;
-        width: 100% !important;
+    // This configuration allow flex to display two
+    // elements per row
+    div, ahc-base-place-card {
+        flex-grow: 1;
+        width: calc(50% - 15px);
+        margin-bottom: 30px;
+    }
+
+    > :nth-child(odd) {
+        margin-right: 30px;
+    }
+
+    > :last-child {
+        margin-right: 0px;
+    }
+
+    .item {
+        margin-bottom: 10px;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .ahc-academic-record-dimmer {
+        width: 100%;
+
+        .ui.list {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: $mobile-max-size) {
+    .ahc-academic-record {
+        display: none;
     }
 }

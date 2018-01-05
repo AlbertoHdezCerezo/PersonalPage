@@ -5,6 +5,10 @@
     flex-flow: row;
     flex-wrap: wrap;
 
+    ahc-base-place-card {
+        display: flex;
+    }
+
     // This configuration allow flex to display two
     // elements per row
     div, ahc-base-place-card {
@@ -22,7 +26,7 @@
     }
 
     .item {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .list {

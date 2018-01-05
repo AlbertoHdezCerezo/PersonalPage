@@ -1,31 +1,27 @@
 <div class="ui grid ahc-layout">
     <div class="column">
         <!-- LANGUAGE SELECTION -->
-        <sm-accordion [options]="{ exclusive: true, on:'click' }">
-            <sm-accordion-item>
-                <accordion-title>
-                    <a popup data-content="languages" class="item">
-                        <i class="world icon"></i>
+        <div accordion class="ui accordion">
+            <div class="title">
+                <i class="world inverted icon"></i>
+            </div>
+            <div class="content">
+                <div class="ui vertical icon text menu ahc-language-menu">
+                    <a popup data-content="This popup" class="item"
+                       (click)="changeLanguage('en')">
+                        <i class="british flag"></i>
                     </a>
-                </accordion-title>
-                <accordion-content>
-                    <div class="ui vertical icon text menu ahc-language-menu">
-                        <a popup data-content="This popup" class="item"
-                           (click)="changeLanguage('en')">
-                            <i class="british flag"></i>
-                        </a>
-                        <a popup data-content="This popup" class="item"
-                           (click)="changeLanguage('es')">
-                            <i class="ae flag"></i>
-                        </a>
-                        <a popup data-content="This popup" class="item"
-                           (click)="changeLanguage('de')">
-                            <i class="germany flag"></i>
-                        </a>
-                    </div>
-                </accordion-content>
-            </sm-accordion-item>
-        </sm-accordion>
+                    <a popup data-content="This popup" class="item"
+                       (click)="changeLanguage('es')">
+                        <i class="ae flag"></i>
+                    </a>
+                    <a popup data-content="This popup" class="item"
+                       (click)="changeLanguage('de')">
+                        <i class="germany flag"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <!-- NAVIGATION SIDEBAR -->
         <div class="ui vertical icon text menu">
