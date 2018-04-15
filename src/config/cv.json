@@ -10,9 +10,9 @@
           "project": "3D AR Book",
           "logo": "assets/img/hackForGood.png",
           "description": {
-            "en": "Design of a 3D AR book for kids",
-            "es": "Diseño de un libro 3D con realidad aumentada para niños",
-            "de": "Design of a 3D AR book for kids"
+            "en": "Design of a 3D AR book for kids with attention deficit disorder.",
+            "es": "Diseño de un libro 3D con realidad aumentada para niños con déficit de atención",
+            "de": "Design of a 3D AR book for kids with attention deficit."
           },
           "technology": ["Android", "Blender", "AR"],
           "award": null
@@ -22,9 +22,9 @@
           "project": "Atlas",
           "logo": "assets/img/atlas.jpg",
           "description": {
-            "en": "Creation of the first software development/distribution environment for drone; in order to encourage software development for these devices. We implemented a scenario in which two drones were controlled, coordinated, by a smartwatch",
-            "es": "Creación del primer entorno de desarrollo software para drones. Una plataforma de desarrollo y distribución de aplicaciones para drones, que aporte un valor añadido al dispositivo. Implementamos un caso práctico en el que controlamos dos drones coordinados vía smartwatch.",
-            "de": "Creation of the first software development/distribution environment for drone; in order to encourage software development for these devices. We implemented a scenario in which two drones were controlled, coordinated, by a smartwatch"
+            "en": "Design of the first software development/distribution environment for drones; in order to encourage software development for these devices. We implemented a scenario in which two drones were controlled by a smartwatch",
+            "es": "Diseño del primer entorno de desarrollo software para drones, con el objetivo de aportar un valor añadido a dichos dispositivo. Implementamos un caso práctico en el que controlamos dos drones coordinados vía smartwatch.",
+            "de": "Design of the first software development/distribution environment for drone; in order to encourage software development for these devices. We implemented a scenario in which two drones were controlled, coordinated, by a smartwatch"
           },
           "technology": ["Android", "Meteor", "Phonegap", "Bluetooth", "Parrot Airborne", "Smartwatch", "NodeJS"],
           "award": null
@@ -56,7 +56,7 @@
           "project": "Able",
           "logo": "assets/img/able.jpg",
           "description": {
-            "en": "Social platform for events/plans organisation with friends in an efficient and not-intrusive way",
+            "en": "Social platform for last-minute events/plans organisation with friends in an efficient and not-intrusive way",
             "es": "Plataforma social para organización de planes con amigos, de manera eficiente y no intrusiva",
             "de": "Social platform for events/plans organisation with friends in an efficient and not-intrusive way"
           },
@@ -74,9 +74,9 @@
           "project": "Project Matamoscas",
           "logo": "assets/img/matamoscas.jpg",
           "description": {
-            "en": "Replacemante of the skip-ad button by a feedback button which skips the ad and provides user feedback about the ad. The goal is to implement a non-intrusive way of providing ad-feedback to improve the way advertisement is targeted to users",
-            "es": "Sustitución del botón de saltar-anuncio por otro que además permita al usuario proporcionar feedback acerca de éste; con el objetivo de permitir a los sistemas de anuncios seleccionar su público potencial de manera eficaz y eficiente.",
-            "de": "Replacemante of the skip-ad button by a feedback button which skips the ad and provides user feedback about the ad. The goal is to implement a non-intrusive way of providing ad-feedback to improve the way advertisement is targeted to users"
+            "en": "Replacemante of the online video skip-ad button by a feedback button which skips the ad and provides user feedback about it. The goal is to implement a non-intrusive of providing ad-feedback to improve the way advertisement is targeted to users.",
+            "es": "Sustitución del botón de saltar-anuncio disponible en vídeos online por otro que además permita al usuario proporcionar feedback acerca de éste; con el objetivo de permitir a los sistemas de anuncios seleccionar su público potencial de manera eficaz y eficiente.",
+            "de": "Replacemante of the online video skip-ad button by a feedback button which skips the ad and provides user feedback about it. The goal is to implement a non-intrusive of providing ad-feedback to improve the way advertisement is targeted to users."
           },
           "technology": ["VideoJS", "HTML", "Javascript"],
           "award": null
@@ -92,12 +92,83 @@
           "project": "Atlas Race",
           "logo": "assets/img/atlas.jpg",
           "description": {
-            "en": "Platform for organising/streaming in 360º Drone races. Implemented streaming, race logic and 360º drone pilot view.",
-            "es": "Plataforma para la organización y streaming en 360º de carreras de drones. Se implementó el sistema de streaming, la lógica de circuitos y la vista de 360º de piloto",
+            "en": "Platform for organising/streaming 360º Drone races. During the contest streaming, race logic and 360º drone pilot view were implemented.",
+            "es": "Plataforma para la organización y streaming en 360º de carreras de drones. Se implementó el sistema de streaming, la lógica de circuitos y la vista de 360º de piloto.",
             "de": "Platform for organising/streaming in 360º Drone races. Implemented streaming, race logic and 360º drone pilot view."
           },
           "technology": ["Meteor", "Semantic UI", "Panono Camera", "Parrot Airborne", "Aframe", "VR", "Google Cardbox", "Microsoft Azure", "Ericsson API"],
           "award": "2º Position and Honorable Mention to the project"
+        }
+      ]
+    },
+    {
+      "name": "Hackathon Digital Health",
+      "logo": "assets/img/tvHackDay.png",
+      "iterations": [
+        {
+          "year": "2017",
+          "project": "Laura",
+          "logo": "assets/img/atlas.jpg",
+          "description": {
+            "en": "Laura is a chatbot-based AI designed to give you personal health-care advices based on your daily routine, all that made in a non-intrusive way, thanks to an user friendly chat interface.",
+            "es": "Laura es una IA diseñada para proporcionarte consejos de salud en base a tu rutina diaria, por medio de la información que es capaz de procesar a través de una interación persona/computadora vía chat con el usuario",
+            "de": "Laura is an chatbot-based AI designed to give you personal health-care advice based on user routine, all that made in a non-intrusive way thanks to an user friendly chat interface."
+          },
+          "technology": ["Semantic UI", "Angular 2", "Ruby", "Ruby on Rails", "NLP"],
+          "award": "Arvato Prize to Best Idea, awarded with 5000€"
+        }
+      ]
+    },
+    {
+      "name": "Google DNA",
+      "logo": "assets/img/tvHackDay.png",
+      "iterations": [
+        {
+          "year": "2017",
+          "project": "UNICORN",
+          "logo": "assets/img/atlas.jpg",
+          "description": {
+            "en": "UNICORN is a complex platform developed by FUNKE, which provides news agencies an automatic way of generating video playlist automatically from text articles; that later on can be place in digital newspapers.",
+            "es": "UNICORN es una platforma desarrollada por FUNKE para la transformación autmática de noticias en texto a listas de reprodución, permitiendo a la editoriales añadir contenido multimedia a sus noticias de manera simple y eficaz.",
+            "de": "UNICORN is a complex platform developed by FUNKE, which provides news agencies an automatic way of generating video playlist automatically from text articles; that later on can be place in digital news."
+          },
+          "technology": ["Semantic UI", "Angular 2", "Symfony"],
+          "award": "Google DNA Award Prize"
+        }
+      ]
+    },
+    {
+      "name": "Hackathon Verimi",
+      "logo": "assets/img/tvHackDay.png",
+      "iterations": [
+        {
+          "year": "2017",
+          "project": "DOCYET",
+          "logo": "assets/img/atlas.jpg",
+          "description": {
+            "en": "DOCYET was chosen as the best product in contest to integrate Verimi login services on it, thanks to its anonymous system that allows to keep users and their Health Insurance companies in contact in an anonymous way.",
+            "es": "DOCYET fue elegido como el mejor producto para integrar los servicios de Verimi en la plataforma, gracias a su sistema que permite mantener usuarios y aseguradoras en contacto a través de la plataforma y de manera anónima.",
+            "de": "DOCYET was chosen as the best product in contest to integrate Verimi login services on it, thanks to its anonymous system that allows DOCYET to keep users and their Health Insurance companies in contact in an anonymous way."
+          },
+          "technology": ["Verimi", "Semantic UI", "Angular 2", "Ruby", "Ruby on Rails", "NLP"],
+          "award": "Verimi Prize to Best Idea, awarded with 20000€ and a cooperation agreement between Verimi and DOCYET"
+        }
+      ]
+    },
+    {
+      "name": "Bankathon Figo",
+      "logo": "assets/img/tvHackDay.png",
+      "iterations": [
+        {
+          "year": "2017",
+          "project": "DOCYET",
+          "logo": "assets/img/atlas.jpg",
+          "description": {
+            "en": "Design of a healthcare attention service for foreign countries. Through VISA API, users can upload medic bills to system and health insurance companies pay the costs of them, saving users from dealing with documentation/credit card/currency problems.",
+            "es": "Diseño de un sistema de atención médica en países extranjeros. A través de la API de VISA los usuarios pueden enviar a las aseguradoras recibos médicos que pueden ser pagado por ellas, evitando así problemas de documentación/divisas/tarjeta de crédito.",
+            "de": "DOCYET was chosen as the best product in contest to integrate Verimi login services on it, thanks to its anonymous system that allows DOCYET to keep users and their Health Insurance companies in contact in an anonymous way."
+          },
+          "technology": ["Visa", "Verimi", "Ember", "Ruby", "Ruby on Rails", "NLP"]
         }
       ]
     },
@@ -176,9 +247,9 @@
       "language": "Deutsch",
       "level": "A2",
       "description": {
-        "en":"Took part in five courses: A1 (Spain), A1+1, A1+2, A2+1, B1+1 (Germany, Anda Sprachschule)",
-        "de":"Took part in five courses: A1 (Spain), A1+1, A1+2, A2+1, B1+1 (Germany, Anda Sprachschule)",
-        "es":"Realizados cinco cursos de idiomas: A1 (España), A1+1, A1+2, A2+1, B1+1 (Alemania, Anda Sprachschule)"
+        "en":"Took part in five courses: A1 (Spain), A1+1, A1+2, A2+1, B1+1 (Germany, Anda Sprachschule), B1+1 (Leipzig, Sprachkosmos)",
+        "de":"Took part in five courses: A1 (Spain), A1+1, A1+2, A2+1, B1+1 (Germany, Anda Sprachschule), B1+1 (Leipzig, Sprachkosmos)",
+        "es":"Realizados cinco cursos de idiomas: A1 (España), A1+1, A1+2, A2+1, B1+1 (Berlin, Anda Sprachschule), B1+1 (Leipzig, Sprachkosmos)"
       },
       "certificates": []
     },
@@ -216,9 +287,9 @@
             "de": "Master Ingenieurinformatik"
           },
           "description": {
-            "en": "Graduated with Honors. Specialized in Web semantic and technologies, Cryptography, Artifical Intelligence for Diagnosis and Mathematic Methods.",
+            "en": "Graduated with Honors. Specialized in Web semantic and technologies, Cryptography, Artifical Intelligence for Diagnosis and Mathematic Methods applied to Web.",
             "es": "Graduado con Honores. Especializado en asignaturas de Tecnologías Web, Semántica, Métodos Matemáticos y Criptografía.",
-            "de": "Graduated with Honors. Specialized in Web semantic and technologies, Cryptography, Artifical Intelligence for Diagnosis and Mathematic Methods."
+            "de": "Graduated with Honors. Specialized in Web semantic and technologies, Cryptography, Artifical Intelligence for Diagnosis and Mathematic Methods applied to Web."
           },
           "center": "Escuela Técnica Superior de Ingeniería Informática, Campus Miguel Delibes, Universidad de Valladolid",
           "logo": "/assets/img/uva.png",
@@ -243,7 +314,7 @@
             {
               "en": "Award to the best Academic Record",
               "es": "Premio al mejor expediente académico",
-              "de": "2 Honorific Mentions achieved"
+              "de": "Award to the best Academic Record"
             },
             {
               "en": "2 Honorific Mentions achieved",
@@ -315,9 +386,9 @@
             "de": "Technical Computer Engineering in Systems"
           },
           "description": {
-            "en": "Graduated with Honors. Specialized in Artifical Intelligence for Diagnosis, UI/UX design and Software Project Quality Management",
-            "es": "Introducción al mundo de la informática",
-            "de": "Graduated with Honors. Specialized in Artifical Intelligence for Diagnosis, UI/UX design and Software Project Quality Management"
+            "en": "Specialized in Artifical Intelligence for Diagnosis.",
+            "es": "Especializado en técnicas de Inteligencia Artificial aplicada a sistemas de diagnóstico.",
+            "de": "Specialized in Artifical Intelligence for Diagnosis."
           },
           "center": "Escuela Técnica Superior de Ingeniería Informática, Campus Miguel Delibes, Universidad de Valladolid",
           "logo": "/assets/img/uva.png",
@@ -375,9 +446,9 @@
             "es": "Desarrollador Autónomo Full Stack"
           },
           "description": {
-            "en": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them.",
-            "de": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them.",
-            "es": "Responsable del desarrollo de proyectos internos basados en PHP & Symfony (backend)/Angular (frontend), encargándome de la documentación, diseño de arquitectura, diseño de la interfaz e implementación de éstos."
+            "en": "Performing different tasks as FrontEnd developer for the maintenance and the development of new features of different projects.",
+            "de": "Performing different tasks as FrontEnd developer for the maintenance and the development of new features of different projects.",
+            "es": "Realizando tareas de mantenimiento y desarrollo de nuevas funcionalidades para diferentes proyectos como desarrollador FrontEnd."
           },
           "technologies": [
             "Angular2",
@@ -415,8 +486,8 @@
             "es": "Ingeniero Software y Desarrollador Full Stack"
           },
           "description": {
-            "en": "Software Engineer and Full Stack Developer in DOCYET. Responsible of the development and deployment of the application, and team coordinator. Currently I am also studying about NLP for understanding and development of new techniques to implement in our chatbot.",
-            "de": "Software Engineer and Full Stack Developer in DOCYET. Responsible of the development and deployment of the application, and team coordinator. Currently I am also studying about NLP for understanding and development of new techniques to implement in our chatbot.",
+            "en": "Software Engineer and Full Stack Developer in DOCYET. Responsible of the development and deployment of the application, and team coordinator. Currently I am also studying about NLP for understanding and development of new techniques to implement in our chatbot; and working in side project with technologies like Alexa.",
+            "de": "Software Engineer and Full Stack Developer in DOCYET. Responsible of the development and deployment of the application, and team coordinator. Currently I am also studying about NLP for understanding and development of new techniques to implement in our chatbot; and working in side project with technologies like Alexa.",
             "es": "Ingeniero Software y Desarrollador Full Stack en DOCYET. Responsable del desarrollo y lanzamiento a producción de la aplicación; y de la coordinación del equipo. También estoy estudiando y realizando cursos para el entiendimiento y el desarrolloo de técnicas de NLP para su aplicación en nuestro chatbot."
           },
           "technologies": [
@@ -433,9 +504,13 @@
             "Amazon Web Services",
             "Linux",
             "Nginx",
-            "SCRUMM",
             "Agile Methodologies",
-            "Gitlab"
+            "Gitlab",
+            "Sinatra",
+            "React",
+            "Alexa",
+            "Semantic UI",
+            "Azure"
           ],
           "company": "DOCYET",
           "logo": "/assets/img/docyet.png"
@@ -457,9 +532,9 @@
             "es": "Desarrollador Frontend, Desarrollador Junior Backend & promotor de API"
           },
           "description": {
-            "en": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them",
+            "en": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, arquitecture design and UI and implementation of them",
             "de": "Responsible of the development of different internal proyects, all them based on PHP & Symfony (backend)/Angular (frontend), taking care of the documentation, design of arquitecture and UI and implementation of them",
-            "es": "Responsable del desarrollo de proyectos internos basados en PHP & Symfony (backend)/Angular (frontend), encargándome de la documentación, diseño de arquitectura, diseño de la interfaz e implementación de éstos"
+            "es": "Responsable del desarrollo de proyectos internos basados en PHP & Symfony (backend)/Angular (frontend), encargándome de la documentación, diseño de arquitectura y diseño e implementación de la interfaz de éstos"
           },
           "technologies": [
             "Angular2",
@@ -497,8 +572,8 @@
             "es": "Desarrollador Frontend & promotor de API"
           },
           "description": {
-            "en": "Responsible of the design and implementation of UIs for different projects using different frameworks (angular, vue.js, enyo). UI designer and developer of the UNICORN project, which was awarded with the Google DNA award and currently is being used by different newspapers in Berlin (Berliner MorgenPost).",
-            "de": "Responsible of the design and implementation of UIs for different projects using different frameworks (angular, vue.js, enyo). UI designer and developer of the UNICORN project, which was awarded with the Google DNA award and currently is being used by different newspapers in Berlin (Berliner MorgenPost).",
+            "en": "Responsible of the design and implementation of UIs for different projects using different frameworks (angular 1 & 2, vue.js, enyo, backbone). UI designer and developer of the UNICORN project, which was awarded with the Google DNA award and currently is being used by different newspapers in Berlin (like Berliner MorgenPost).",
+            "de": "Responsible of the design and implementation of UIs for different projects using different frameworks (angular 1 & 2, vue.js, enyo, backbone). UI designer and developer of the UNICORN project, which was awarded with the Google DNA award and currently is being used by different newspapers in Berlin (like Berliner MorgenPost).",
             "es": "Responsable del diseño e implementación de interfaces para diferentes proyectos empleando diferentes frameworks (angular, vue.js, enyo). Destacar el proyecto UNICORN, que fue galardonado con el premio Google DNA y actualmente es usado por diversos medios en Berlín (como Berliner MorgenPost)."
           },
           "technologies": [
@@ -544,19 +619,22 @@
             "es": "Emprendedor, Ingeniero Software & Desarrollador Full Stack"
           },
           "description": {
-            "en": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
-            "de": "Taking part in the EUXCEL program. Responsible for the design and development of Able, core of the project to show, in order to start a new StartUp. The idea was one of the finalist in the event.",
+            "en": "Taking part in the EUXCEL program. Responsible for the design and development of Able, a web-based social APP conceived for organizing last-minute plans with friends. The idea was one of the finalist in the event.",
+            "de": "Taking part in the EUXCEL program. Responsible for the design and development of Able, a web-based social APP conceived for organizing last-minute plans with friends. The idea was one of the finalist in the event.",
             "es": "Participante del programa EUXCEL. Diseñador, coordinador y desarrollador de Able, APP web/móvil, núcleo del proyecto a presentar con el fin de crear una StartUp. La idea fue una de las finalistas del evento."
           },
           "technologies": [
             "Meteor",
-            "SemanticUI",
+            "Semantic UI",
             "Phonegap",
             "Asana",
             "Slack",
             "Adobe Photoshop",
             "Adobe After Effects",
-            "Adobe PremierePro"
+            "Adobe PremierePro",
+            "Digital Ocean",
+            "Linux",
+            "NGinX"
           ],
           "company": "EUXCEL",
           "logo": "/assets/img/euxcel.png",
@@ -579,7 +657,7 @@
             "es": "Ingeniero Software & Desarrollador Full Stack"
           },
           "description": {
-            "en": "",
+            "en": "Working as university employee for the GSI Group. Designing and developing a web platform for the exchange of raw material stock, for an external client",
             "de": "Working as university employee for the GSI Group. Designing and developing a web platform for the exchange of raw material stock, for an external client",
             "es": "Colaborador del grupo GSI en el desarrollo de una plataforma web, para un cliente externo, destinada a la compra/venta de materiales."
           },
@@ -589,6 +667,8 @@
             "Javascript",
             "Java",
             "PostGreSQL",
+            "PrimeFaces",
+            "Glassfish",
             "UML",
             "Requirements & Use Cases design"
           ],
@@ -625,10 +705,57 @@
   "recommendations": [
     {
       "person": "José Belarmino Pulido Junquera",
-      "position": "Profesor en universidad de Valladolid",
+      "position": "Universidad de Valladolid",
+      "document": "",
+      "logo": "/assets/img/gsi.png",
+      "contact": ""
+    },
+    {
+      "person": "Alfredo M. Bobillo",
+      "position": "Universidad de Valladolid",
+      "document": "",
+      "logo": "/assets/img/gsi.png",
+      "contact": ""
+    },
+    {
+      "person": "Carlos J. Alonso González",
+      "position": "Head of GSI, Universidad de Valladolid",
+      "document": "",
+      "logo": "/assets/img/gsi.png",
+      "contact": ""
+    },
+    {
+      "person": "Benjamín Sahelices Fernández",
+      "position": "Director of E.T.S de Ingeniería Informática, Universidad de Valladolid",
+      "document": "",
+      "logo": "/assets/img/gsi.png",
+      "contact": ""
+    },
+    {
+      "person": "José Pérez Ríos",
+      "position": "Profesor of Business Administration, Universidad de Valladolid",
+      "document": "",
+      "logo": "/assets/img/gsi.png",
+      "contact": ""
+    },
+    {
+      "person": "Javier Finat",
+      "position": "Universidad de Valladolid",
+      "document": "",
+      "logo": "/assets/img/gsi.png",
+      "contact": ""
+    },
+    {
+      "person": "Gordon Krammer",
+      "position": "CTO Funke Digital TV",
       "document": "",
       "logo": "/assets/img/gsi.png",
       "contact": ""
     }
-  ]
+  ],
+  "motivationLetter": {
+    "en": "",
+    "es": "",
+    "de": ""
+  }
 }

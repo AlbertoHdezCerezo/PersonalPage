@@ -18,9 +18,9 @@ export class ExperienceComponent{
     spaceBetween: 30
   };
 
-    public experiencePlaces: ExperiencePlace[] = [];
+  public experiencePlaces: ExperiencePlace[] = [];
 
-    constructor(private configBlock: ConfigBlock) {
-        this.experiencePlaces = this.configBlock.getConfig('experience');
-    };
+  constructor(private configBlock: ConfigBlock) {
+      this.experiencePlaces = this.configBlock.getConfig('experience');
+  };
 }

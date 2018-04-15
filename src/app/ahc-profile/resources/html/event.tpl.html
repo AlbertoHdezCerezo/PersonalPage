@@ -1,4 +1,34 @@
-<div class="ahc-event">
+<ahc-base-section>
+    <base-section-content>
+        <div class="ahc-event">
+            <div class="ui four link stackable cards">
+                <div *ngFor="let event of events"
+                     class="card">
+                    <div class="image">
+                        <img src="{{event.logo}}">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDER FOR MOBILE DISPLAY -->
+        <swiper class="ahc-event-swipper" [config]="config">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" *ngFor="let event of events">
+                    <div class="card">
+                        <div class="image">
+                            <img src="{{event.logo}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </swiper>
+    </base-section-content>
+</ahc-base-section>
+
+<!-- <div class="ahc-event">
     <h1 class="ui header">
         <i class="trophy icon"></i>
         <div class="content">
@@ -6,7 +36,6 @@
         </div>
     </h1>
 
-    <!-- LIST OF PROFESSIONAL EXPERIENCE -->
     <div class="ui four stackable cards">
         <div *ngFor="let event of events" class="card">
             <ahc-event-item [eventItem]="event" class="image"></ahc-event-item>
@@ -14,3 +43,4 @@
     </div>
 
 </div>
+-->
